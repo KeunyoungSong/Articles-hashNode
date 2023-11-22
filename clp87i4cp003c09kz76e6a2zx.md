@@ -7,7 +7,7 @@ tags: git
 
 ---
 
-#A Scenario-Based Guide
+# A Scenario-Based Guide
 ## How to edit your commit message
 ### If you want to edit the previous commit message
 ```
