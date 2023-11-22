@@ -25,5 +25,9 @@ git rebase -i HEAD~n
 // The changes are applied.
 // **Note: All hash codes after the edited commit will be changed.**
 git stash pop
+```
+## How to force push a Git branch
 
+```
+git push --force
 ```
