@@ -28,7 +28,7 @@ tags: android, kotlin, iuctouwsoy6oa
 8. Check the result page, and if the retryButton is clicked, move to MainActivity with the option `Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK`.
 
 ## Something I’m not sure about
-- When wanting control in a View component, which approach is preferable? By lazy or lateinit?
+- When wanting control over a View component, which approach is preferable? By lazy or lateinit?
 - Is managing all Fragment data within an Activity the best approach?
 
 ## What could be better
