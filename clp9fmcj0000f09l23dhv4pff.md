@@ -29,7 +29,7 @@ tags: android, kotlin, iuctouwsoy6oa
 
 ## Something I’m not sure about
 - When wanting control over a View component, which approach is preferable? By lazy or lateinit?
-- Is managing all Fragment data within an Activity the best approach?
+- Is it the best approach to manage all Fragment data within an Activity?
 
 ## What could be better
 - Managing UI data using a data class instead of individual processing would enhance maintainability.    
