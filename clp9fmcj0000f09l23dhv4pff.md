@@ -32,4 +32,7 @@ tags: android, kotlin, iuctouwsoy6oa
 - Is managing all Fragment data within an Activity the best approach?
 
 ## What could be better
-- Managing UI data using a data class instead of individual processing would enhance maintainability.
+- Managing UI data using a data class instead of individual processing would enhance maintainability.    
+
+##  GitHub link
+%[https://github.com/LB-Brandon/MBTI_APP/tree/main]
