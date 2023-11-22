@@ -15,6 +15,14 @@ tags: android, kotlin, iuctouwsoy6oa
 - Centralized data management for fragments within an Activity
 - Implementation of the ZoomOutPageTransformer animation
 
+### Fragment initializing
+1. onCreate()
+    - Retrieve the data from Fragment arguments
+2. onCreateView()
+    - Inflate the fragment layout, get view references, set up data on the views, and return the view
+3. onViewCreated()
+    - Define the functionality of an interactive UI component like the nextButton
+
 ## How it works
 1. Navigate from MainActivity to TestActivity using Intent.
 2. TestActivity contains a ViewPager2 object and a moveToNextQuestion() method to control it.
