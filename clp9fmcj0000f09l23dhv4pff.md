@@ -8,7 +8,7 @@ tags: android, kotlin, iuctouwsoy6oa
 ---
 
 ## What I learned
-- How to use <u>`ViewPagerAdapter2`</u>
+- How to use `ViewPagerAdapter2`
 - Initializing Fragments while considering the <u>**Fragment lifecycle**</u>
     - Passing item (page) information using fragment.arguments
 - **Handling duplicate View (UI) initialization** when iterating through a list containing View information
