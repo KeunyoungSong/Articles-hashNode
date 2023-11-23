@@ -1,5 +1,5 @@
 ---
-title: "Mbti_app"
+title: "[Android]Mbti_app"
 datePublished: Wed Nov 22 2023 07:17:16 GMT+0000 (Coordinated Universal Time)
 cuid: clp9fmcj0000f09l23dhv4pff
 slug: mbtiapp
