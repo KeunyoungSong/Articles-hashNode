@@ -1,5 +1,5 @@
 ---
-title: "Git commands"
+title: "[Git]Git commands"
 datePublished: Tue Nov 21 2023 10:42:16 GMT+0000 (Coordinated Universal Time)
 cuid: clp87i4cp003c09kz76e6a2zx
 slug: git-commands
