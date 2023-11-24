@@ -47,7 +47,7 @@ Here are a few reasons why Kotlin pairs so well with Android:
 - Safety: Android apps built with Kotlin code are 20% less likely to crash according to the Android docs.
 - Asynchronicity: Kotlin's use of coroutines allows it to provide asynchronous(non-blocking) programming support.
 
-### Android Operating Systems
+## Android Operating Systems
 - Multi-User Linux
 - File Permissions
 - Resource isolations
