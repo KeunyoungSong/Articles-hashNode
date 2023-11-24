@@ -11,7 +11,7 @@ tags: android, kotlin, iuctouwsoy6oa
 - How to use `ViewPagerAdapter2`
 - Initializing Fragments while considering the <u>Fragment lifecycle</u>
     - Passing item (page) information using fragment.arguments
-- <u>Handling duplicate View (UI) initialization</u> when iterating through a list containing View information
+- <u>Handling repeated View (UI) initialization</u> when iterating through a list containing View information
 - Centralized data management for fragments within an Activity
 - Implementation of the *ZoomOutPageTransformer* animation
 
