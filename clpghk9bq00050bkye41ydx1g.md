@@ -19,8 +19,23 @@ This app allows users to conveniently manage their favorite webtoon pages. The a
 1. SharedPreference
 1. Dialog
 
+## Key functions
+### `onBackPressed()`
+
+If a WebViewFragment exists on the current screen in MainActivity, the `onBackPressed()` method is overridden to perform a back operation within the current fragment's page.
+
+### `shouldOverrideUrlLoading()`
+
+- When accessing a webtoon page, the URL is saved within the WebViewFragment's SharedPreferences through the lambda function `saveData`.
+- If the currently accessed URL does not include the path `comic.naver.com`, the page loading is halted.
+
+### `OnTabLayoutNameChanged` Interface
+
+This interface detects when the tab name in the Fragment has changed and is used to notify the Activity of the changes.
+
+
 ## Troubleshooting
-### Issue: `err_access_denied` Occurs on App Installation and Startup
+#### Issue: `err_access_denied` Occurs on App Installation and Startup
 - Symptoms: Users encounter the err_access_denied error when installing and launching the app.
 - Resolution:
 Action: Re-install the app
