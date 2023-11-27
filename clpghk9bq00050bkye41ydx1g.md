@@ -1,8 +1,8 @@
 ---
-title: "[Android]Webtoon Viewer APP"
+title: "[Android]Webcomic Viewer APP"
 datePublished: Mon Nov 27 2023 05:46:01 GMT+0000 (Coordinated Universal Time)
 cuid: clpghk9bq00050bkye41ydx1g
-slug: androidwebtoon-viewer-app
+slug: androidwebcomic-viewer-app
 tags: android
 
 ---
