@@ -11,3 +11,4 @@ cmd + shift + f : find in files
 cmd + h : Type Hierarchy  
 cmd + i : Implement Methods  
 cmd + o : Override Methods  
+esc : focus to editor window
