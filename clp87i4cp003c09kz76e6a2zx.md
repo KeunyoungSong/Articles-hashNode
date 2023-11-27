@@ -9,7 +9,7 @@ tags: git
 
 # A Scenario-Based Guide
 ---
-## How to edit your commit message
+## Commit
 ### If you want to edit the previous commit message
 ```
 git commit --amend -m "New Title" -m "New Content"
@@ -28,9 +28,19 @@ git rebase -i HEAD~n
 // **Note: All hash codes after the edited commit will be changed.**
 git stash pop
 ```
----
-## How to force push a Git branch
 
+---
+## Push
+### If you want to override the history from the github
 ```
 git push --force
+```
+
+
+---
+## Merge
+### If you want to incorporate changes from a feature branch and you don't want to bring it's history.
+
+```
+git merge --squash feature-branch
 ```
