@@ -11,10 +11,13 @@ tags: android
 This app allows users to conveniently manage their favorite webtoon pages. The app features three tabs for viewing webtoons, and a 'Back to Last Scene' button allows users to easily return to the episode they were watching. Users can customize the names of each tab, and access to URLs other than Naver Webtoon is blocked.
 
 ## What I learned
-- Utilizing TabLayout with `ViewPager2`
-- <u>SharedPreferences Implementation</u>
-- <u>Custom Listener</u> for Dynamic Tab Name Change
-- `WebView` and Its Functionality
+1. WebView
+1. ViewPager2
+    - ViewPager with Fragment
+    - TabLayout with Fragment using TabLayoutMediator
+1. Fragment
+1. SharedPreference
+1. Dialog
 
 ## Troubleshooting
 ### Issue: `err_access_denied` Occurs on App Installation and Startup
