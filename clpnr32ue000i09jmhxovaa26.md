@@ -12,12 +12,15 @@ slug: 7zw07isd7j20ioydteyime2vmoyngcdslyrsnyag66y47j6l65ok
 
 ### 일반적인 해석
 1. Ving 인 사실은, ~ 상황을 만든다
-2. 앞 문장 수식
+2. 바로 앞 단어(목적어) 수식
 3. 병렬적인 상황
 4. ~인 상황이, Ving하게 했다
+5. 주어 수식 
 
 문장[1]: Java is easy to learn and it works well on the Dalvik virtual machine, which was inspired by Java Virtual Machine (JVM), making it portable for almost any device and operating system.  
+해석: Java는 배우기 쉽고 Dalvik 가상 머신에서 잘 작동하며, 이는 Java Virtual Machine (JVM)에서 영감을 받아 거의 모든 장치와 운영 체제에서 휴대 가능하게 만듭니다.  
 대체: Java is easy to learn, and it works well on the Dalvik virtual machine, inspired by Java Virtual Machine (JVM), thus allowing it to be portable for almost any device and operating system.
+
 #### 참고
 portable: 이식 가능한  
 몰랐던 것: <u>분사 구문으로 앞 단어가 아닌 앞 문장의 인과에 대한 결과를 말할 수 있다.</u>  
@@ -29,8 +32,8 @@ making it ... 구문은 앞서 it(Java)가 Dalvik virtual machine 위에서 잘 
 ---
 
 예문[1]: Having studied for weeks, she felt confident about the exam.  
+해석: 몇 주 동안 공부한 덕분에, 그녀는 시험에 대해 자신감을 느꼈다.  
 대체: After studying for weeks, she felt confident about the exam.  
-해석: 몇 주 동안 공부한 덕분에, 그녀는 시험에 대해 자신감을 느꼈다.
 
 예문[1]: Running late, John rushed to catch the bus.  
 해석: 늦게 출발한 채로, 존은 버스를 타려고 서두었다.
@@ -46,9 +49,8 @@ making it ... 구문은 앞서 it(Java)가 Dalvik virtual machine 위에서 잘 
 
 --- 
 예문[3]: Users can visually inspect the amplitude of the recorded voice on a canvas within a CustomView, utilizing the amplitudes provided by MediaRecorder.  
+해석: 사용자는 MediaRecorder에서 제공하는 진폭을 활용하여 CustomView 내의 캔버스에서 녹음된 목소리의 진폭을 시각적으로 확인할 수 있습니다.  
 대체: Users can visually inspect the amplitude of the recorded voice on a canvas within a CustomView by utilizing the amplitudes provided by MediaRecorder.  
-해석: 사용자는 MediaRecorder에서 제공하는 진폭을 활용하여 CustomView 내의 캔버스에서 녹음된 목소리의 진폭을 시각적으로 확인할 수 있습니다.
-
 ---
 예문[3]: He sat by the window, watching the rain fall.
 해석: 그는 창가에 앉아 비가 내리는 것을 바라보았다
@@ -62,9 +64,9 @@ making it ... 구문은 앞서 it(Java)가 Dalvik virtual machine 위에서 잘 
 대체: While talking on the phone, she smiled at the good news.  
 
 ---
-예문: A new version of MediaRecorder was introduced, requiring context and a higher API level of 32.  
+예문[5]: A new version of MediaRecorder was introduced, requiring context and a higher API level of 32.  
 해석: MediaRecorder의 새 버전이 소개되었으며, 이를 위해서는 컨텍스트와 API 레벨 32가 필요합니다.  
-참고: A new version of MediaRecorder has been introduced, and for this, it requires context and a higher API level of 32.
+대체: A new version of MediaRecorder has been introduced, and for this, it requires context and a higher API level of 32.
 
 ## [~, which ~]
 - 선행사에 대한 단순 추가 정보 제공
