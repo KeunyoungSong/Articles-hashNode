@@ -28,8 +28,7 @@ This app allows users to conveniently manage their favorite webtoon pages. The a
 ## Troubleshooting
 #### Issue: `err_access_denied` Occurs on App Installation and Startup
 - Symptoms: Users encounter the err_access_denied error when installing and launching the app.
-- Resolution:
-Action: Re-install the app
+- Action: Re-install the app
 - Explanation: This error may be due to a glitch during the initial installation. Re-installing the app often resolves this issue by ensuring a clean and complete installation process.
 
 ## Something I’m not sure about
