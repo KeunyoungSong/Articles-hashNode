@@ -1,8 +1,8 @@
 ---
-title: "해석이 안 되는 문장"
+title: "해석이 익숙하지 않은 문장들"
 datePublished: Sat Dec 02 2023 07:46:59 GMT+0000 (Coordinated Universal Time)
 cuid: clpnr32ue000i09jmhxovaa26
-slug: 7zw07isd7j20ioyvicdrkjjripqg66y47j6l
+slug: 7zw07isd7j20ioydteyime2vmoyngcdslyrsnyag66y47j6l65ok
 
 ---
 
