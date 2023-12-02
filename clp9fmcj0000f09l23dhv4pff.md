@@ -7,8 +7,6 @@ tags: android, kotlin, iuctouwsoy6oa
 
 ---
 
-## Topic
-- MBTI test app
 
 ## What I learned
 - ViewPager2
