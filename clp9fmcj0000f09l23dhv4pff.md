@@ -7,7 +7,6 @@ tags: android, kotlin, iuctouwsoy6oa
 
 ---
 
-
 ## What I learned
 - ViewPager2
 - Fragment lifecycle
