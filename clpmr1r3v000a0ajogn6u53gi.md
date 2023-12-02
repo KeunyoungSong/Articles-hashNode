@@ -1,5 +1,5 @@
 ---
-title: "[DEBUG] MediaPlayer Error"
+title: "[DEBUG]MediaPlayer Error"
 datePublished: Fri Dec 01 2023 14:58:11 GMT+0000 (Coordinated Universal Time)
 cuid: clpmr1r3v000a0ajogn6u53gi
 slug: debug-mediaplayer-error
