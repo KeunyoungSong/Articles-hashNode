@@ -7,13 +7,19 @@ tags: android, kotlin, iuctouwsoy6oa
 
 ---
 
+## Topic
+- MBTI test app
+
 ## What I learned
-- How to use `ViewPager2`
-- Initializing Fragments while considering the <u>Fragment lifecycle</u>
-    - Passing item (page) information using fragment.arguments
-- <u>Handling repeated View (UI) initialization</u> when iterating through a list containing View information
-- Centralized data management for fragments within an Activity
-- Implementation of the *ZoomOutPageTransformer* animation
+- ViewPager2
+- Fragment lifecycle
+    - fragment.arguments
+- Repeated View (UI) initialization
+- ZoomOutPageTransformer animation
+
+## Key Function
+- Conduct MBTI tests through multiple fragment pages on ViewPager.
+- View results based on selected categorized data in the result page.
 
 ### Fragment initializing
 1. onCreate()
