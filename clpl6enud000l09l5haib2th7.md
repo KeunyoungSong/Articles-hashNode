@@ -1,8 +1,8 @@
 ---
-title: "[Kotlin] Mini Program"
+title: "[Kotlin]Mini Program"
 datePublished: Thu Nov 30 2023 12:32:35 GMT+0000 (Coordinated Universal Time)
 cuid: clpl6enud000l09l5haib2th7
-slug: kotlin-mini-program
+slug: kotlinmini-program
 
 ---
 
