@@ -6,7 +6,7 @@ slug: leetcode200-number-of-islands
 
 ---
 
-### Key Idea
+# Key Idea
 - Extract 'row' and 'col' from the entire grid.
 - Traverse all nodes, perform DFS when the value is 1.
 - Within DFS, check boundary and perform DFS for nodes in all four directions from that position    
