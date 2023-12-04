@@ -1,8 +1,8 @@
 ---
-title: "[Leetcode]200. 17. Letter Combinations of a Phone Number"
+title: "[Leetcode]17. Letter Combinations of a Phone Number"
 datePublished: Mon Dec 04 2023 13:05:17 GMT+0000 (Coordinated Universal Time)
 cuid: clpqxc3ze000509k01hpi5nco
-slug: leetcode200-17-letter-combinations-of-a-phone-number
+slug: leetcode17-letter-combinations-of-a-phone-number
 
 ---
 
