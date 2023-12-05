@@ -11,7 +11,7 @@ slug: leetcode200-number-of-islands
 - Traverse all nodes, perform DFS when the value is 1.
 - Within DFS, check boundary and perform DFS for nodes in all four directions from that position    
 
-```kotlin
+```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         row, col = len(grid[0]), len(grid)
