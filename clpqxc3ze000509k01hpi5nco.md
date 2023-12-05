@@ -17,7 +17,7 @@ slug: leetcode17-letter-combinations-of-a-phone-number
 - It's not feasible to use a single for-loop for all lists.
     - Set the index and path as arguments for DFS. Traverse based on the index, accumulating characters mapped to `digits` in the `path` at each DFS.
 
-```kotlin
+```python
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         mapping = {
