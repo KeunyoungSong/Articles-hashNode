@@ -1,8 +1,8 @@
 ---
-title: "[Leetcode]17. Letter Combinations of a Phone Number"
+title: "[Leetcode]39. Combination Sum"
 datePublished: Tue Dec 05 2023 03:06:02 GMT+0000 (Coordinated Universal Time)
 cuid: clprrdby6000l08lg7617cgic
-slug: leetcode17-letter-combinations-of-a-phone-number-1-1
+slug: leetcode39-combination-sum
 
 ---
 
