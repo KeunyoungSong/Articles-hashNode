@@ -9,10 +9,10 @@ slug: leetcode46-permutations
 ![image](https://github.com/LB-Brandon/algorithm/assets/84883277/65759e3b-dc5e-46e1-8387-08d4d32cc13f)
 
 # Key Idea
-- nums를 기준으로 순회한다
-- 순회하며 요소를 path 담고 해당 요소를 뺀 나머지 nums를 가지고 newNums를 초기화한 것을 DFS의 매개변수로 호출에 다시 nums를 기준으로 순회한다
-- nums 의 길이가 0 이 되면 탈출조건이 만족된다
-- return 후에는 이전 작업을 pop() 으로 복구시킨다
+- Iterate through `nums`
+- While traversing, store the element in the `path`. Then, initialize `newNums` with the remaining `nums` after excluding the current element, and recursively call DFS with `newNums` as the new set of numbers to consider.
+- The escape condition is when the length of `nums` becomes 0.
+- After returning from the recursion, restore the previous state of the operation using `pop()`.
 
 ```python
 class Solution:
