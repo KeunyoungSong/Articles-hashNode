@@ -1,0 +1,40 @@
+---
+title: "[Android]Communication APP"
+datePublished: Wed Dec 06 2023 00:54:04 GMT+0000 (Coordinated Universal Time)
+cuid: clpt23gp2000009l4emggd3vu
+slug: androidcommunication-app
+
+---
+
+# Overview
+Basic Communication: The app focuses on establishing fundamental communication protocols.
+
+## What I learned
+- Socket Server/Client
+- Synchronous/Asynchronous Http communication using OkHttp
+- Thread
+    - runOnUiThread
+- JSON parse using GSON
+
+## Key Function
+- Server runs on PC, Client runs on Android app
+- Client makes a request asynchronously
+- Client parses the response (JSON to Data class)
+
+## Troubleshooting
+
+#### Socket Communication in a Main Thread
+Error: `android.os.NetworkOnMaininTreadException`  
+Action: Ensured that socket communication functions within a separate thread, preventing potential issues in the main thread.  
+Explanation: Network communication might need long time to finish, this can be block the UI(main) Thread.  
+
+#### UI handing in Main Thread
+Error: `android.view.ViewRootImpl$CalledFromWrongThreadException`: Only the original thread that created a view hierarchy can touch its views.  
+Action: Avoided UI-related methods running in the main thread by utilizing the runOnUiThread scope.  
+
+#### HTTP Communication with OkHttp
+Error: `java.io.IOException`: Cleartext HTTP traffic to 11.22.222.33 not permitted
+Action: When communicating using HTTP, OkHttp requires the clear text option to be set to true, but this is not necessary for socket communication.
+
+##  GitHub link
+%[https://github.com/LB-Brandon/Communication_APP]
