@@ -14,3 +14,4 @@ cmd + o : Override Methods
 esc : focus to editor window
 cnt + option + cmd + , : move up and scroll with selection
 cnt + option + cmd + . : move down and scroll with selection
+option + space : Code Completion
