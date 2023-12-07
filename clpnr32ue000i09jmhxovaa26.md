@@ -51,6 +51,7 @@ making it ... 구문은 앞서 it(Java)가 Dalvik virtual machine 위에서 잘 
 예문[3]: Users can visually inspect the amplitude of the recorded voice on a canvas within a CustomView, utilizing the amplitudes provided by MediaRecorder.  
 해석: 사용자는 MediaRecorder에서 제공하는 진폭을 활용하여 CustomView 내의 캔버스에서 녹음된 목소리의 진폭을 시각적으로 확인할 수 있습니다.  
 대체: Users can visually inspect the amplitude of the recorded voice on a canvas within a CustomView by utilizing the amplitudes provided by MediaRecorder.  
+
 ---
 예문[3]: He sat by the window, watching the rain fall.
 해석: 그는 창가에 앉아 비가 내리는 것을 바라보았다
