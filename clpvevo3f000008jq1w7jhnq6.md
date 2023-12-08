@@ -8,17 +8,17 @@ slug: leetcode332-reconstruct-itinerary
 
 # Key Idea
 ### Solution1 : Backtracking
-- Must traverse all possible destinations
+- Must traverse all possible destinations.
 - There is a chance that we may select a node meeting the smallest lexical order visit condition, but with no return back. Such cases may not be resolved with a simple DFS as you can't pass through all possible destinations.
-- Use Backtracking
+- Use Backtracking.
 - Reverse the result since decisions are added from the last decision space.
 
 ### Solution2: Backtracking with stack [Optimization of Solution 1]
-- Make the dictionary in reverse order
-- Now we can use `pop()` instead of `pop(0)`
+- Make the dictionary in reverse order.
+- Now we can use `pop()` instead of `pop(0)`.
 
 ### Solution3: Only Stack
-- Utilizing the characteristics of the stack data structure
+- Utilizing the characteristics of the stack data structure.
 
 ## Solution1 : Backtracking
 ```python
