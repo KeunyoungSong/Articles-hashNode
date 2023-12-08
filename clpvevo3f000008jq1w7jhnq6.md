@@ -13,9 +13,12 @@ slug: leetcode332-reconstruct-itinerary
 - Use Backtracking
 - Reverse the result since decisions are added from the last decision space.
 
-### Solution2: Backtracking with stack
+### Solution2: Backtracking with stack [Optimization of Solution 1]
 - Make the dictionary in reverse order
 - Now we can use `pop()` instead of `pop(0)`
+
+### Solution3: Only Stack
+- Utilizing the characteristics of the stack data structure
 
 ## Solution1 : Backtracking
 ```python
@@ -64,4 +67,28 @@ class Solution:
         # appending from last decision, so reverse the list
         return result[::-1]
 ```
+
+## Solution3: Only Stack
+```python
+class Solution:
+    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
+        graph = collections.defaultdict(list)
+        
+        # make sorted adjacency list in smallest lexical order
+        for ticket in sorted(tickets):
+            f, t = ticket
+            graph[f].append(t)
+        
+        stack, route = ["JFK"], []
+        # explore all possible destinations
+        while stack:
+            while graph[stack[-1]]:
+                stack.append(graph[stack[-1]].pop(0))
+                # record the decision from the last
+            route.append(stack.pop())
+            
+        # appending from last decision, so reverse the list
+        return route[::-1]
+```
+
 %[https://github.com/LB-Brandon/algorithm/tree/main/0332-reconstruct-itinerary]
