@@ -8,7 +8,6 @@ tags: git
 ---
 
 # A Scenario-Based Guide
----
 ## Commit
 ### If you want to edit the previous commit message
 ```
@@ -43,4 +42,13 @@ git push --force
 
 ```
 git merge --squash feature-branch
+```
+---
+## Clone
+### Clone with directory or without directory
+```
+// clone and create a default directory
+git clone [URL] [default name]
+// clone without creating a directory
+git clone [URL] .
 ```
