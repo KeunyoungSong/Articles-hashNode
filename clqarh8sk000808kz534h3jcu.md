@@ -50,7 +50,7 @@ The shortest path algorithms aim to find the path in a graph where the sum of ed
 
 
 
-## Refernces
+# References
 https://www.youtube.com/watch?v=4pyBLcHXRjQ&t=72s
 https://velog.io/@dlgosla/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
 https://www.youtube.com/watch?v=YiGxC9hAg4s&t=323s
