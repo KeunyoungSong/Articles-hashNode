@@ -14,6 +14,7 @@ This project aims to facilitate user searches by allowing them to input a userna
 - GitHub Open API
 - RecyclerView using ListAdpater
 - Handler
+- Recycler's item selecting animation
 
 ## Key Function
 To enhance the user experience and prevent exceeding the API call limit per minute, the following features were implemented:
