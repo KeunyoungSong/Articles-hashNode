@@ -1,5 +1,5 @@
 ---
-title: "[Android]Communication APP"
+title: "[Android]Communication App"
 datePublished: Wed Dec 06 2023 00:54:04 GMT+0000 (Coordinated Universal Time)
 cuid: clpt23gp2000009l4emggd3vu
 slug: androidcommunication-app
