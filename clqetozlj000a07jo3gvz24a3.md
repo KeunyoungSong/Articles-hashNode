@@ -16,7 +16,7 @@ This project aims to facilitate user searches by allowing them to input a userna
 - Handler
 - Recycler's item selecting animation
 
-## Key Function
+## Key Functions
 To enhance the user experience and prevent exceeding the API call limit per minute, the following features were implemented:
 - Debouncing applied to the EditText's addTextChangedListener using a Handler to prevent exceeding the API call limit per minute.
 - When updating RecyclerView data with a scroll Listener, there was a issue of multiple API calls, which I resolved by implementing the isLoading status.
