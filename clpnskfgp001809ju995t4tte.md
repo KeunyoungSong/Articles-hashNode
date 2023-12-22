@@ -16,7 +16,7 @@ This application enables users to record their voice and play it back using Medi
 - Canvas
 - Handler
 
-## Key functions
+## Key Functions
 - Record your voice
 - Play your voice
 - Visualize voice amplitude
