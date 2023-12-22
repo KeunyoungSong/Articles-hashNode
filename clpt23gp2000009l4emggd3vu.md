@@ -16,7 +16,7 @@ Basic Communication: The app focuses on establishing fundamental communication p
     - runOnUiThread
 - JSON parse using GSON
 
-## Key Function
+## Key Functions
 - Server runs on PC, Client runs on Android app
 - Client makes a request asynchronously
 - Client parses the response (JSON to Data class)
