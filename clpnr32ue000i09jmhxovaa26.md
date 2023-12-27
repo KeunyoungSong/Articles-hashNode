@@ -76,5 +76,9 @@ making it ... 구문은 앞서 it(Java)가 Dalvik virtual machine 위에서 잘 
 예문: The default mode. The system creates a new instance of the activity in the task it was started from and routes the intent to it
 해석: 기본 모드입니다. 시스템은 해당 활동이 시작된 태스크에 새로운 인스턴스를 생성하고 해당 인텐트를 해당 인스턴스로 라우팅합니다.
 
+## from that of
+예문: A fragment's view has a separate Lifecycle that is managed independently from that of the fragment's Lifecycle.  
+해석: https://english.stackexchange.com/questions/72086/the-meaning-of-from-that-of
+
 
 
