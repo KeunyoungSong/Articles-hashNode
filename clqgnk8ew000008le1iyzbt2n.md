@@ -148,22 +148,5 @@ This attribute is like clearTaskOnLaunch, **but it operates on a single activity
 ## Start a task
 You can set up an activity as the entry point for a task by giving it an intent filter with "android.intent.action.MAIN" as the specified action and"android.intent.category.LAUNCHER"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Referrences
+%[https://developer.android.com/guide/components/activities/tasks-and-back-stack]
