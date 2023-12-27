@@ -80,5 +80,10 @@ making it ... 구문은 앞서 it(Java)가 Dalvik virtual machine 위에서 잘 
 예문: A fragment's view has a separate Lifecycle that is managed independently from that of the fragment's Lifecycle.  
 해석: https://english.stackexchange.com/questions/72086/the-meaning-of-from-that-of
 
+## whose
+예문: This is the appropriate place to set up the initial state of your view, to start observing LiveData instances whose callbacks update the fragment's view, 
+설명: whose 는 of which 와 동의어로 소유격을 나타냄. 
+대체: This is the appropriate place to set up the initial state of your view, to observe LiveData instances that update the fragment's view, and to set up adapters on any RecyclerView or ViewPager2 instances in your fragment's view.
+
 
 
