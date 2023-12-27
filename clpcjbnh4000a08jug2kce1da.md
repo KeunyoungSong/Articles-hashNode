@@ -1,5 +1,5 @@
 ---
-title: "[Review]The 2022 Android Developer Roadmap: part 1"
+title: "[Android]The 2022 Android Developer Roadmap: part 1"
 datePublished: Fri Nov 24 2023 11:24:14 GMT+0000 (Coordinated Universal Time)
 cuid: clpcjbnh4000a08jug2kce1da
 slug: reviewthe-2022-android-developer-roadmap-part-1
