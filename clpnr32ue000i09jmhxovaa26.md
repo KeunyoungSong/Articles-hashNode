@@ -72,18 +72,47 @@ making it ... 구문은 앞서 it(Java)가 Dalvik virtual machine 위에서 잘 
 ## [~, which ~]
 - 선행사에 대한 단순 추가 정보 제공
 
-## That
+## [That]
 예문: The default mode. The system creates a new instance of the activity in the task it was started from and routes the intent to it
 해석: 기본 모드입니다. 시스템은 해당 활동이 시작된 태스크에 새로운 인스턴스를 생성하고 해당 인텐트를 해당 인스턴스로 라우팅합니다.
 
-## from that of
+## [from that of]
 예문: A fragment's view has a separate Lifecycle that is managed independently from that of the fragment's Lifecycle.  
 해석: https://english.stackexchange.com/questions/72086/the-meaning-of-from-that-of
 
-## whose
+## [whose]
 예문: This is the appropriate place to set up the initial state of your view, to start observing LiveData instances whose callbacks update the fragment's view, 
 설명: whose 는 of which 와 동의어로 소유격을 나타냄. 
 대체: This is the appropriate place to set up the initial state of your view, to observe LiveData instances that update the fragment's view, and to set up adapters on any RecyclerView or ViewPager2 instances in your fragment's view.
 
+## [with]
+with가 나타내는 일반적인 의미는 다음과 같습니다.
+- 함께 (together with)
+- ~을 가지고 (having)
+- ~을 통해서 (through)
+- ~과 관련하여 (with regard to)
+- ~을 기반으로 (based on)
 
+함께 (together with):
+She went to the party with her friends.
+그녀는 친구들과 함께 파티에 갔다.
+
+~을 가지고 (having):
+He entered the room with a smile on his face.
+그는 얼굴에 미소를 지니고 방에 들어갔다.
+
+~을 통해서 (through):
+She communicated with him through email.
+그녀는 이메일을 통해서 그와 소통했다.
+
+~과 관련하여 (with regard to):
+I have some concerns with regard to your proposal.
+당신의 제안과 관련해서 몇 가지 우려가 있습니다.
+
+~을 기반으로 (based on):
+The decision was made with data-based analysis.
+그 결정은 데이터 기반의 분석을 기반으로 내려졌다.
+
+---
+예문: 예문: With some common kinds of properties, even though you can implement them manually every time you need them, it is more helpful to implement them once, add them to a library, and reuse them later. 
 
