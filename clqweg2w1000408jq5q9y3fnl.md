@@ -6,7 +6,7 @@ slug: kotlin-stdlibfilter
 
 ---
 
-# Operation
+# Summary
 
 Returns a list containing only elements matching the given [predicate](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/filter.html#kotlin.collections$filter(kotlin.Array((kotlin.collections.filter.T)),%20kotlin.Function1((kotlin.collections.filter.T,%20kotlin.Boolean)))/predicate).
 
