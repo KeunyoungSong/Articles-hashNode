@@ -69,4 +69,4 @@ class Solution {
 
 # References
 
-[https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/average.html](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/average.html)
+[https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/filter.html](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/filter.html)
