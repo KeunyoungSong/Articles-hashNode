@@ -136,7 +136,7 @@ val anotherBoxedB: Int? = b
 println(boxedB == anotherBoxedB) // Prints 'true'
 ```
 
-# Explicit number conversions﻿
+# Explicit number conversions
 
 Due to different representations, smaller types ***are not subtypes*** of bigger ones. If they were, we would have troubles of the following sort:
 
@@ -212,7 +212,7 @@ val x = 5 / 2.toDouble()
 println(x == 2.5)  // true
 ```
 
-## Bitwise operations﻿
+## Bitwise operations
 
 Kotlin provides a set of ***bitwise operations*** on integer numbers. They operate on the binary level directly with bits of the numbers' representation. Bitwise operations are represented by functions that can be called in infix form. They can be applied only to `Int` and `Long`:
 
@@ -246,3 +246,8 @@ The operations on floating-point numbers discussed in this section are:
 * Comparison operators: `a < b`, `a > b`, `a <= b`, `a >= b`
     
 * Range instantiation and range checks: `a..b`, `x in a..b`, `x !in a..b`
+    
+
+# References
+
+[https://kotlinlang.org/docs/numbers.html](https://kotlinlang.org/docs/numbers.html)
