@@ -1,8 +1,8 @@
 ---
-title: "[Kotlin]average"
+title: "[kotlin-stdlib]average"
 datePublished: Tue Jan 02 2024 08:43:05 GMT+0000 (Coordinated Universal Time)
 cuid: clqw3qmu6000908ld92dd5svp
-slug: kotlinaverage
+slug: kotlin-stdlibaverage
 
 ---
 
@@ -56,3 +56,8 @@ class Solution {
 * FloatArray
     
 * DoubleArray
+    
+
+# References
+
+[https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/average.html](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/average.html)
