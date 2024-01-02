@@ -6,7 +6,7 @@ slug: kotlin-stdlibaverage
 
 ---
 
-# Operation
+# Summary
 
 Returns an average value of elements in the array.
 
