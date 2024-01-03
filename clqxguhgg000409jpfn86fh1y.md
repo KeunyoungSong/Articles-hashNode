@@ -46,7 +46,7 @@ Creates a new array of the specified [size](https://kotlinlang.org/api/latest/jv
 
 ### Properties
 
-* #### size
+* size
     
 
 ### Extension Properties
