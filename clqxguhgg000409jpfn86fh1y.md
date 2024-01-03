@@ -19,9 +19,9 @@ slug: kotlin-stdliblongarray
 <init>(size: Int, init: (Int) -> Long)
 ```
 
-Creates a new array of the specified [size](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long-array/-init-.html#kotlin.LongArray$%3Cinit%3E(kotlin.Int,%20kotlin.Function1((kotlin.Int,%20kotlin.Long)))/size), where each element is calculated by calling the specified [init](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long-array/-init-.html#kotlin.LongArray$%3Cinit%3E(kotlin.Int,%20kotlin.Function1((kotlin.Int,%20kotlin.Long)))/init) function.
+Creates a new array of the specified size, where each element is calculated by calling the specified init function.
 
-The function [init](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long-array/-init-.html#kotlin.LongArray$%3Cinit%3E(kotlin.Int,%20kotlin.Function1((kotlin.Int,%20kotlin.Long)))/init) is called for each array element sequentially starting from the first one. It should return the value for an array element given its index.
+The function init is called for each array element sequentially starting from the first one. It should return the value for an array element given its index.
 
 ### source
 
@@ -42,7 +42,7 @@ public final class ByteArray {
 <init>(size: Int)
 ```
 
-Creates a new array of the specified [size](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long-array/size.html#kotlin.LongArray$size), with all elements initialized to zero.
+Creates a new array of the specified size, with all elements initialized to zero.
 
 ### Properties
 
@@ -107,7 +107,7 @@ class Solution {
         
 * associate
     
-    * Returns a [Map](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html#kotlin.collections.Map) containing key-value pairs provided by [transform](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/associate.html#kotlin.collections$associate(kotlin.Array((kotlin.collections.associate.T)),%20kotlin.Function1((kotlin.collections.associate.T,%20kotlin.Pair((kotlin.collections.associate.K,%20kotlin.collections.associate.V)))))/transform) function applied to elements of the given array.
+    * Returns a Map containing key-value pairs provided by transform function applied to elements of the given array.
         
     * val charCodes = intArrayOf(72, 69, 76, 76, 79)  
         val byCharCode = charCodes.associate { it to Char(it) }  
@@ -137,7 +137,7 @@ class Solution {
         
 * contains
     
-    * Returns `true` if [element](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/contains.html#kotlin.collections$contains(kotlin.LongArray,%20kotlin.Long)/element) is found in the array.
+    * Returns `true` if element is found in the array.
         
 * contentEquals
     
@@ -167,7 +167,7 @@ class Solution {
     
 * elementAtOrElse
     
-    * Returns an element at the given [index](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/element-at-or-else.html#kotlin.collections$elementAtOrElse(kotlin.Array((kotlin.collections.elementAtOrElse.T)),%20kotlin.Int,%20kotlin.Function1((kotlin.Int,%20kotlin.collections.elementAtOrElse.T)))/index) or the result of calling the [defaultValue](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/element-at-or-else.html#kotlin.collections$elementAtOrElse(kotlin.Array((kotlin.collections.elementAtOrElse.T)),%20kotlin.Int,%20kotlin.Function1((kotlin.Int,%20kotlin.collections.elementAtOrElse.T)))/defaultValue) function if the [index](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/element-at-or-else.html#kotlin.collections$elementAtOrElse(kotlin.Array((kotlin.collections.elementAtOrElse.T)),%20kotlin.Int,%20kotlin.Function1((kotlin.Int,%20kotlin.collections.elementAtOrElse.T)))/index) is out of bounds of this array.
+    * Returns an element at the given index or the result of calling the defaultValue function if the index is out of bounds of this array.
         
     * println(emptyList.elementAtOrElse(0) { "no int" }) // no int
         
@@ -177,7 +177,7 @@ class Solution {
         
 * filter
     
-    * Returns a list containing only elements matching the given [predicate](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/filter.html#kotlin.collections$filter(kotlin.Array((kotlin.collections.filter.T)),%20kotlin.Function1((kotlin.collections.filter.T,%20kotlin.Boolean)))/predicate).
+    * Returns a list containing only elements matching the given predicate.
         
 * fileterIndexed
     
@@ -199,7 +199,7 @@ class Solution {
     
 * find
     
-    * Returns the first element matching the given [predicate](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/find.html#kotlin.collections$find(kotlin.Array((kotlin.collections.find.T)),%20kotlin.Function1((kotlin.collections.find.T,%20kotlin.Boolean)))/predicate), or `null` if no such element was found.
+    * Returns the first element matching the given predicate, or `null` if no such element was found.
         
     * val numbers = listOf(1, 2, 3, 4, 5, 6, 7)  
         val firstOdd = numbers.find { it % 2 != 0 }  
@@ -207,7 +207,7 @@ class Solution {
         
 * findLast
     
-    * Returns the last element matching the given [predicate](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/find-last.html#kotlin.collections$findLast(kotlin.Array((kotlin.collections.findLast.T)),%20kotlin.Function1((kotlin.collections.findLast.T,%20kotlin.Boolean)))/predicate), or `null` if no such element was found.
+    * Returns the last element matching the given predicate, or `null` if no such element was found.
         
 * first
     
@@ -219,7 +219,7 @@ class Solution {
         
 * flatMap
     
-    * Returns a single list of all elements yielded from results of [transform](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/flat-map.html#kotlin.collections$flatMap(kotlin.LongArray,%20kotlin.Function1((kotlin.Long,%20kotlin.collections.Iterable((kotlin.collections.flatMap.R)))))/transform) function being invoked on each element of original array.
+    * Returns a single list of all elements yielded from results of transform function being invoked on each element of original array.
         
     * val list = listOf("123", "45")  
         println(list.flatMap { it.toList() }) // \[1, 2, 3, 4, 5\]
@@ -236,19 +236,19 @@ class Solution {
     
 * foldRight
     
-    * Accumulates value starting with [initial](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/fold-right.html#kotlin.collections$foldRight(kotlin.LongArray,%20kotlin.collections.foldRight.R,%20kotlin.Function2((kotlin.Long,%20kotlin.collections.foldRight.R,%20)))/initial) value and applying [operation](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/fold-right.html#kotlin.collections$foldRight(kotlin.LongArray,%20kotlin.collections.foldRight.R,%20kotlin.Function2((kotlin.Long,%20kotlin.collections.foldRight.R,%20)))/operation) from right to left to each element and current accumulator value.
+    * Accumulates value starting with initial value and applying operation from right to left to each element and current accumulator value.
         
 * foldRightIndexed
     
 * forEach
     
-    * Performs the given [action](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/for-each.html#kotlin.collections$forEach(kotlin.LongArray,%20kotlin.Function1((kotlin.Long,%20kotlin.Unit)))/action) on each element.
+    * Performs the given action on each element.
         
 * forEachIndexed
     
 * getOrElse
     
-    * Returns an element at the given [index](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/get-or-else.html#kotlin.collections$getOrElse(kotlin.Array((kotlin.collections.getOrElse.T)),%20kotlin.Int,%20kotlin.Function1((kotlin.Int,%20kotlin.collections.getOrElse.T)))/index) or the result of calling the [defaultValue](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/get-or-else.html#kotlin.collections$getOrElse(kotlin.Array((kotlin.collections.getOrElse.T)),%20kotlin.Int,%20kotlin.Function1((kotlin.Int,%20kotlin.collections.getOrElse.T)))/defaultValue) function if the [index](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/get-or-else.html#kotlin.collections$getOrElse(kotlin.Array((kotlin.collections.getOrElse.T)),%20kotlin.Int,%20kotlin.Function1((kotlin.Int,%20kotlin.collections.getOrElse.T)))/index) is out of bounds of this array.
+    * Returns an element at the given index or the result of calling the defaultValue function if the index is out of bounds of this array.
         
 * getOrNull
     
@@ -270,7 +270,7 @@ class Solution {
         
 * indexOf
     
-    * Returns first index of [element](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/index-of.html#kotlin.collections$indexOf(kotlin.LongArray,%20kotlin.Long)/element), or -1 if the array does not contain element.
+    * Returns first index of element, or -1 if the array does not contain element.
         
 * indexOfFirst
     
@@ -284,7 +284,7 @@ class Solution {
     
 * joinTo
     
-    * Appends the string from all the elements separated using [separator](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/join-to.html#kotlin.collections$joinTo(kotlin.Array((kotlin.collections.joinTo.T)),%20kotlin.collections.joinTo.A,%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.Int,%20kotlin.CharSequence,%20kotlin.Function1?((kotlin.collections.joinTo.T,%20kotlin.CharSequence)))/separator) and using the given [prefix](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/join-to.html#kotlin.collections$joinTo(kotlin.Array((kotlin.collections.joinTo.T)),%20kotlin.collections.joinTo.A,%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.Int,%20kotlin.CharSequence,%20kotlin.Function1?((kotlin.collections.joinTo.T,%20kotlin.CharSequence)))/prefix) and [postfix](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/join-to.html#kotlin.collections$joinTo(kotlin.Array((kotlin.collections.joinTo.T)),%20kotlin.collections.joinTo.A,%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.Int,%20kotlin.CharSequence,%20kotlin.Function1?((kotlin.collections.joinTo.T,%20kotlin.CharSequence)))/postfix) if supplied.
+    * Appends the string from all the elements separated using separator and using the given prefix and postfix if supplied.
         
     * val sb = StringBuilder("An existing string and a list: ")  
         val numbers = listOf(1, 2, 3)  
@@ -292,7 +292,7 @@ class Solution {
         
 * joinToString
     
-    * Creates a string from all the elements separated using [separator](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/join-to-string.html#kotlin.collections$joinToString(kotlin.Array((kotlin.collections.joinToString.T)),%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.Int,%20kotlin.CharSequence,%20kotlin.Function1?((kotlin.collections.joinToString.T,%20kotlin.CharSequence)))/separator) and using the given [prefix](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/join-to-string.html#kotlin.collections$joinToString(kotlin.Array((kotlin.collections.joinToString.T)),%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.Int,%20kotlin.CharSequence,%20kotlin.Function1?((kotlin.collections.joinToString.T,%20kotlin.CharSequence)))/prefix) and [postfix](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/join-to-string.html#kotlin.collections$joinToString(kotlin.Array((kotlin.collections.joinToString.T)),%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.CharSequence,%20kotlin.Int,%20kotlin.CharSequence,%20kotlin.Function1?((kotlin.collections.joinToString.T,%20kotlin.CharSequence)))/postfix) if supplied.
+    * Creates a string from all the elements separated using separator and using the given prefix and postfix if supplied.
         
     * val numbers = listOf(1, 2, 3, 4, 5, 6)  
         println(numbers.joinToString()) // 1, 2, 3, 4, 5, 6 println(numbers.joinToString(prefix = "\[", postfix = "\]")) // \[1, 2, 3, 4, 5, 6\]
@@ -306,7 +306,7 @@ class Solution {
 * map
     
     * val numbers = listOf(1, 2, 3)  
-        println([numbers.map](http://numbers.map) { it \* it }) // \[1, 4, 9\]
+        println(numbers.map { it \* it }) // \[1, 4, 9\]
         
 * mapIndexed
     
@@ -324,7 +324,7 @@ class Solution {
         
 * maxOf
     
-    * Returns the largest value among all values produced by [selector](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/max-of.html#kotlin.collections$maxOf(kotlin.Array((kotlin.collections.maxOf.T)),%20kotlin.Function1((kotlin.collections.maxOf.T,%20kotlin.collections.maxOf.R)))/selector) function applied to each element in the array.
+    * Returns the largest value among all values produced by selector function applied to each element in the array.
         
 * maxOfOrNull
     
@@ -348,7 +348,7 @@ class Solution {
         
 * minOf
     
-    * Returns the smallest value among all values produced by [selector](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/min-of.html#kotlin.collections$minOf(kotlin.Array((kotlin.collections.minOf.T)),%20kotlin.Function1((kotlin.collections.minOf.T,%20kotlin.Double)))/selector) function applied to each element in the array.
+    * Returns the smallest value among all values produced by selector function applied to each element in the array.
         
 * minOfOrNull
     
@@ -368,7 +368,7 @@ class Solution {
         
 * onEach
     
-    * Performs the given [action](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/on-each.html#kotlin.collections$onEach(kotlin.LongArray,%20kotlin.Function1((kotlin.Long,%20kotlin.Unit)))/action) on each element and returns the array itself afterwards.
+    * Performs the given action on each element and returns the array itself afterwards.
         
     * `forEach` is used when you want to modify the collection.
         
