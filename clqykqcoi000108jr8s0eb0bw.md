@@ -172,7 +172,7 @@ val countEndsWithE = numbers.run {
 }
 ```
 
-> Additionally, you can ignore the return value and use a scope function **<mark>to create a temporary scope for local variables</mark>**.
+> Additionally, you can ignore the return value and use a scope function **to create a temporary scope for local variables**.
 
 ```kotlin
 val numbers = mutableListOf("one", "two", "three")
