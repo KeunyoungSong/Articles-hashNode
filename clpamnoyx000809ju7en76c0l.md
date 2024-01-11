@@ -16,4 +16,5 @@ cnt + option + cmd + , : move up and scroll with selection
 cnt + option + cmd + . : move down and scroll with selection  
 option + space : Code Completion  
 cmd + k : reformat code  
-cmd + l : extend selection
+cmd + l : extend selection  
+option + z : soft wraps
