@@ -17,4 +17,5 @@ cnt + option + cmd + . : move down and scroll with selection
 option + space : Code Completion  
 cmd + k : reformat code  
 cmd + l : extend selection  
-option + z : soft wraps (Lines are wrapped within the visible screen area)
+option + z : soft wraps (Lines are wrapped within the visible screen area)  
+cmd + 0 : column selection mode
