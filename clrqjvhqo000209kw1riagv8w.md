@@ -94,3 +94,155 @@ This *Modern App Architecture* encourages using the following techniques, among 
 * 코루틴과 플로우
     
 * 의존성 주입의 좋은 실례
+    
+
+## UI layer
+
+The role of the UI layer (or *presentation layer*) is to display the application data on the screen.
+
+The UI layer is made up of two things:
+
+* UI 요소
+    
+* State holders(such as ViewModel classes)
+    
+
+![](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview-ui.png align="center")
+
+**Figure 2.** The UI layer's role in app architecture.
+
+## Data layser
+
+The data layer of an app contains the *business logic*. **The business logic is what gives value to your app**—it's made of rules that determine how your app creates, stores, and changes data.
+
+The data layer is made of *repositories* that each can contain zero to many *data sources*. You should create a repository class for each different type of data you handle in your app. For example, you might create a `MoviesRepository` class for data related to movies, or a `PaymentsRepository` class for data related to payments.
+
+> 데이터 레이어는 레포지토리로 구성된다. 앱에서 사용하는 모든 데이터 타입에 대해 레포지토리를 생성해야 한다.
+
+![](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview-data.png align="center")
+
+**Figure 3.** The data layer's role in app architecture.
+
+Repository classes are responsible for the following tasks:
+
+* 앱에 데이터 노출시키기
+    
+* 데이터 변화를 한군데 두기
+    
+* 여러 데이터 출처로부터의 충돌 해결하기
+    
+* 데이터의 출처를 다른 곳에서 추상화하기
+    
+* 비즈니스 로직 보유하기
+    
+
+**Each data source class should have the responsibility of working with only one source of data, which can be a file, a network source, or a local database.**
+
+Data source classes are the bridge between the application and the system for data operations.
+
+> 각 데이터 출처 클래스는 하나의 데이터 출처와만 작동해야 하며, 각 출처는 파일, 네트워크 출처, 로컬 데이터베이스가 될 수 있다
+
+## Domain layer
+
+The domain layer is an optional layer that sits between the UI and data layers.
+
+**The domain layer is responsible for encapsulating complex business logic, or simple business logic that is reused by multiple ViewModels.** This layer is optional because not all apps will have these requirements. You should use it only when needed—for example, to handle complexity or favor reusability.
+
+> 도메인 레이어는 복잡한 비즈니스 로직을 숨기고 간단하지만 여러 ViewModel에서 사용되는 비즈니스 로직에 대해 처리하는 책임을 갖는다.
+
+![](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview-domain.png align="center")
+
+**Figure 4.** The domain layer's role in app architecture.
+
+Classes in this layer are commonly called ***use*** ***cases*** or ***interactors***. Each use case should have responsibility over a *single* functionality. For example, your app could have a `GetTimeZoneUseCase` class if multiple ViewModels rely on time zones to display the proper message on the screen.
+
+> 도메인 레이어의 클래스들은 Usecase 나 Interactor 라고 불린다.  
+> 하나의 유즈케이스는 하나의 기능(목적)을 가져야 한다.
+> 
+> 다양한 ViewModel 에서 사용하는 비즈니스 로직을 재활용하는 예로 `GetTimeZoneUseCase` 이 있고 이런 기능들을 도메인 레이어에 작성할 수 있다
+
+# Manage dependencies between components
+
+Classes in your app depend on other classes in order to function properly. You can use either of the following design patterns to gather the dependencies of a particular class:
+
+* [Dependency injection (DI)](https://developer.android.com/training/dependency-injection): Dependency injection allows classes to define their dependencies without constructing them. At runtime, another class is responsible for providing these dependencies.
+    
+* [Service locator](https://en.wikipedia.org/wiki/Service_locator_pattern): The service locator pattern provides a registry where classes can obtain their dependencies instead of constructing them.
+    
+
+> 컴포넌트 간의 의존성을 관리하기 위해 의존성 주입과 Service Locator를 사용 할 수 있다.
+
+**We recommend following dependency injection patterns and using the** [**Hilt library in Android**](https://developer.android.com/training/dependency-injection/hilt-android) **apps.** Hilt automatically constructs objects by walking the dependency tree, provides compile-time guarantees on dependencies, and creates dependency containers for Android framework classes.
+
+## General best practices
+
+### 1.Don't store data in app components.
+
+Avoid designating your app's entry points—such as activities, services, and broadcast receivers—as sources of data. Instead, they should only coordinate with other components to retrieve the subset of data that is relevant to that entry point. Each app component is rather short-lived, depending on the user's interaction with their device and the overall current health of the system.
+
+> 앱의 Activity, Service, Broadcast receiver 등을 데이터 소스로 사용하지 말아라.  
+> 각각은 데이터 요청이나 처리를 다른 모듈 또는 클래스에 위임하고, 그 결과를 받아올 수 있도록 설계되어야 한다.
+> 
+> 각 컴포넌트들은 차라리 사용자와의 상호작용에 따라 짧은 주기를 갖는 것이 낫다.
+
+### 2.Reduce dependencies on Android classes.
+
+Your app components should be the only classes that rely on Android framework SDK APIs such as Context, or Toast. Abstracting other classes in your app away from them helps with testability and reduces coupling within your app.
+
+> 클래스들을 Android framework 에 너무 의존하게 하지마라.
+
+### 3\. **Create well-defined boundaries of responsibility between various modules in your app.**
+
+For example, don't spread the code that loads data from the network across multiple classes or packages in your code base. Similarly, don't define multiple unrelated responsibilities—such as data caching and data binding—in the same class. Following the [recommended app architecture](https://developer.android.com/topic/architecture#recommended-app-arch) will help you with this.
+
+> 네트워크로부터 데이터를 가져오는 것을 여러 클래스에 걸쳐서 하지 말아라.  
+> 하나의 클래스에 서로 관련 없는 여러 책임을 두지말아라
+
+### 4.**Expose as little as possible from each module.**
+
+For example, don't be tempted to create a shortcut that exposes an internal implementation detail from a module. You might gain a bit of time in the short term, but you are then likely to incur technical debt many times over as your codebase evolves.
+
+> 데이터를 외부로 노출할 때 mutable 하게 전달하지 말아라
+
+### 5\. **Focus on the unique core of your app so it stands out from other apps.**
+
+### 6.**Consider how to make each part of your app testable in isolation.**
+
+For example, having a well-defined API for fetching data from the network makes it easier to test the module that persists that data in a local database. If instead, you mix the logic from these two modules in one place, or distribute your networking code across your entire code base, it becomes much more difficult—if not impossible—to test effectively.
+
+> API 호출로부터 데이터를 가져오는 로직과 로컬에서 관리하는 로직을 분리하면 각 모듈의 테스트가 쉬워진다
+
+### 7.**Types are responsible for their concurrency policy.**
+
+If a type is performing long-running blocking work, it should be responsible for moving that computation to the right thread. That particular type knows the type of computation that it is doing and in which thread it should be executed. Types should be main-safe, meaning they're safe to call from the main thread without blocking it.
+
+> 코루틴 써라.
+
+### 8.**Persist as much relevant and fresh data as possible.**
+
+That way, users can enjoy your app's functionality even when their device is in offline mode. Remember that not all of your users enjoy constant, high-speed connectivity—and even if they do, they can get bad reception in crowded places.
+
+> 가능한 한 많은 관련 및 최신 데이터를 지속적으로 저장해라.
+
+## Benefits of Architecture
+
+Having a good Architecture implemented in your app brings a lot of benefits to the project and engineering teams:
+
+* 앱 전반의 유지보수성, 품질, 견고함 향상
+    
+* 확장 가능성
+    
+* 아키텍처는 프로젝트에 일관성을 가져오기에, 새로운 팀 멤버의 합류와 적응을 쉽게 한다.
+    
+* 테스트를 쉽게한다.
+    
+* 버그가 체계적으로 조사될 수 있다
+    
+
+# References
+
+[https://developer.android.com/topic/architecture](https://developer.android.com/topic/architecture)
+
+---
+
+*'Portions of this page are reproduced from work created and*[*shared by the Android Open Source Project*](http://code.google.com/policies.html)*and used according to terms described in the*[*Creative Commons 2.5 Attribution License*](http://creativecommons.org/licenses/by/2.5/)*.*
