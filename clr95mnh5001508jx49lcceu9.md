@@ -50,25 +50,7 @@ There are two types of UI state:
 > 
 > UI element state 는 UI elements 가 그려지는데 영향을 끼치는 고유 속성을 말한다
 
-## Logic
-
-# Android lifecycle and the types of UI state and logic
-
-## The UI state production pipeline
-
-# State holders and their responsibilities
-
-## Types of state holders
-
-# Business logic and its state holder
-
-## The ViewModel as a business logic state holder
-
-# UI logic and its state holder
-
-# Choose between a ViewModel and plain class for a state holder
-
-# State holders are compoundable
+...
 
 # References
 
@@ -76,4 +58,4 @@ There are two types of UI state:
 
 ---
 
-*'Portions of this page are reproduced from work created and*[*shared by the Android Open Source Project*](http://code.google.com/policies.html) *and used according to terms described in the*[*Creative Commons 2.5 Attribution License*](http://creativecommons.org/licenses/by/2.5/)*.*
+*'Portions of this page are reproduced from work created and*[*shared by the Android Open Source Project*](http://code.google.com/policies.html)*and used according to terms described in the*[*Creative Commons 2.5 Attribution License*](http://creativecommons.org/licenses/by/2.5/)*.*
