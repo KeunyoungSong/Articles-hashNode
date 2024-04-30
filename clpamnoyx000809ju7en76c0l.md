@@ -12,11 +12,14 @@ option + h : Type Hierarchy
 cmd + i : Implement Methods  
 cmd + o : Override Methods  
 esc : focus to editor window  
-cnt + option + cmd + , : move up and scroll with selection  
-cnt + option + cmd + . : move down and scroll with selection  
+ctrl + option + cmd + , : move up and scroll with selection  
+ctrl + option + cmd + . : move down and scroll with selection  
 option + space : Code Completion  
 cmd + k : reformat code  
 cmd + l : extend selection  
+ctrl + l : Select Single Line at Caret  
+option + l : Extend Line Selection  
 option + z : soft wraps (Lines are wrapped within the visible screen area)  
 cmd + 0 : column selection mode  
+option + 0 : Toggle Sticky Selection  
 option + click : multi pointer
