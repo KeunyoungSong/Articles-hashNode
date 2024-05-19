@@ -3,6 +3,7 @@ title: "[Docs Reviews]Guide to app architecture"
 datePublished: Tue Jan 23 2024 16:07:51 GMT+0000 (Coordinated Universal Time)
 cuid: clrqjvhqo000209kw1riagv8w
 slug: docs-reviewsguide-to-app-architecture
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716101678147/790b10cf-7c33-4137-be49-f625db24db06.png
 
 ---
 
@@ -154,7 +155,7 @@ The domain layer is an optional layer that sits between the UI and data layers.
 
 **Figure 4.** The domain layer's role in app architecture.
 
-Classes in this layer are commonly called ***use*** ***cases*** or ***interactors***. Each use case should have responsibility over a *single* functionality. For example, your app could have a `GetTimeZoneUseCase` class if multiple ViewModels rely on time zones to display the proper message on the screen.
+Classes in this layer are commonly called ***usecases*** or ***interactors***. Each use case should have responsibility over a *single* functionality. For example, your app could have a `GetTimeZoneUseCase` class if multiple ViewModels rely on time zones to display the proper message on the screen.
 
 > 도메인 레이어의 클래스들은 Usecase 나 Interactor 라고 불린다.  
 > 하나의 유즈케이스는 하나의 기능(목적)을 가져야 한다.
@@ -172,7 +173,7 @@ Classes in your app depend on other classes in order to function properly. You c
 
 > 컴포넌트 간의 의존성을 관리하기 위해 의존성 주입과 Service Locator를 사용 할 수 있다.
 
-**We recommend following dependency injection patterns and using the** [**Hilt library in Android**](https://developer.android.com/training/dependency-injection/hilt-android) **apps.** Hilt automatically constructs objects by walking the dependency tree, provides compile-time guarantees on dependencies, and creates dependency containers for Android framework classes.
+**We recommend following dependency injection patterns and using the**[**Hilt library in Android**](https://developer.android.com/training/dependency-injection/hilt-android)**apps.** Hilt automatically constructs objects by walking the dependency tree, provides compile-time guarantees on dependencies, and creates dependency containers for Android framework classes.
 
 ## General best practices
 
@@ -242,7 +243,3 @@ Having a good Architecture implemented in your app brings a lot of benefits to t
 # References
 
 [https://developer.android.com/topic/architecture](https://developer.android.com/topic/architecture)
-
----
-
-*'Portions of this page are reproduced from work created and*[*shared by the Android Open Source Project*](http://code.google.com/policies.html)*and used according to terms described in the*[*Creative Commons 2.5 Attribution License*](http://creativecommons.org/licenses/by/2.5/)*.*
