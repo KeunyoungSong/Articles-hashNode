@@ -1,5 +1,5 @@
 ---
-title: "[Docs Review]State holders and UI State"
+title: "[Doc Review]State holders and UI State"
 datePublished: Thu Jan 11 2024 11:56:59 GMT+0000 (Coordinated Universal Time)
 cuid: clr95mnh5001508jx49lcceu9
 slug: docs-reviewstate-holders-and-ui-state
