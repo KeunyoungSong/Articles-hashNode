@@ -1,5 +1,5 @@
 ---
-title: "[Docs Review]Properties"
+title: "[Doc Review]Properties"
 datePublished: Thu Dec 28 2023 16:06:12 GMT+0000 (Coordinated Universal Time)
 cuid: clqped7tm000508ldcma86qbj
 slug: docs-reviewproperties
