@@ -1,8 +1,8 @@
 ---
-title: "[kotlin-stdlib]fold"
+title: "[Doc Review]fold"
 datePublished: Tue Jan 02 2024 14:07:00 GMT+0000 (Coordinated Universal Time)
 cuid: clqwfb6or000908l2gqakhn3x
-slug: kotlin-stdlibfold
+slug: doc-reviewfold
 
 ---
 
