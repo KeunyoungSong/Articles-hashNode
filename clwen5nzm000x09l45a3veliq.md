@@ -440,7 +440,7 @@ class PickerConfig(
     
 * 이미지 선택과 동시에 저장된 상태를 초기화 할 것인지 여부
     
-* RecyclerView 의 holder 개수
+* RecyclerView 가 캐싱하는 뷰의 개수
     
 * Item 에 띄워질 썸네일의 해상도 스케일
     
