@@ -1,5 +1,5 @@
 ---
-title: "[Docs Reviews]Guide to app architecture"
+title: "[Doc Review]Guide to app architecture"
 datePublished: Tue Jan 23 2024 16:07:51 GMT+0000 (Coordinated Universal Time)
 cuid: clrqjvhqo000209kw1riagv8w
 slug: docs-reviewsguide-to-app-architecture
