@@ -4,6 +4,7 @@ datePublished: Sun May 19 2024 12:55:21 GMT+0000 (Coordinated Universal Time)
 cuid: clwdjildq000c08k02lztfeyc
 slug: image-picker-android-library-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716123258061/faa0e239-aa8e-4252-876a-1829c76ac6db.png
+tags: android, bottomsheetdialogfragment, photopicker, custom-view
 
 ---
 
