@@ -140,7 +140,7 @@ Jitpack 의 Java 버전을 수정했읜 라이브러리로 제공될 모듈의 �
 compileOptions {
 	sourceCompatibility = JavaVersion.VERSION_17
 	targetCompatibility = JavaVersion.VERSION_17
-} 
+}
 ```
 
 ### 자 이제 새로 커밋을 하고 푸시한 뒤 태그를 달아 배포버전을 만들자
@@ -192,7 +192,7 @@ dependencies {
 
 아래처럼 라이브러리가 제공하는 기능을 사용할 수 있었다.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1716194613136/c5731467-85d3-4354-8ff0-6973e0e2b44e.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1716194856875/14a960bc-60f1-434c-ac5e-2659a15b7bad.png align="center")
 
 ---
 
