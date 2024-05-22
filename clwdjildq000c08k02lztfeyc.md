@@ -31,7 +31,7 @@ tags: opensource, android, bottomsheetdialogfragment, photopicker, custom-view
 
 ### 다만...
 
-이미지 선택 이후 선택한 이미지 상태를 복원해 이전에 선택한 이미지를 변경하는 기능을 제공하지 않았고 내 경험상 SNS 를 사용할 때 이미지를 잘못 선택하거나 비슷하게 여러장 찍어놓은 이미지를 수정하는 일이 잦았다. 더군다나 BottomSheet 로 Photo Picker를 제공하기 때문에 실수로 시트를 내려버리는 일도 있을 수 있겠다고 생각했고 프로젝트 목표로 정한 최소 SDK 버전을 지원하지도 않기에 일관된 UX/UI 를 지원하기 위해 Custom Image Picker 를 만들게 되었다.
+이미지 선택 이후 선택한 이미지 상태를 복원해 이전에 선택한 이미지를 변경하는 기능을 제공하지 않았고 내 경험상 SNS 를 사용할 때 이미지를 잘못 선택하거나 비슷하게 여러장 찍어놓은 사진이 많아 선택한 이미지를 수정하는 일이 잦았다. 더욱이 BottomSheet 로 Photo Picker를 제공하기 때문에 실수로 시트를 내려버리는 일도 있을 수 있겠다고 생각했고 프로젝트 목표로 정한 최소 SDK 버전을 지원하지도 않기에 일관된 UX/UI 를 지원하기 위해 Custom Image Picker 를 만들게 되었다.
 
 |  | Google's Photo Picker | What I need |
 | --- | --- | --- |
