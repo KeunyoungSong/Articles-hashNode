@@ -4,7 +4,7 @@ datePublished: Mon May 20 2024 07:25:02 GMT+0000 (Coordinated Universal Time)
 cuid: clwen5nzm000x09l45a3veliq
 slug: opensourceimage-picker-android-library-3
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716189865939/a97fbfe2-f699-41cd-ac8e-6c5e52fc9d77.png
-tags: android, fragment, builder-pattern
+tags: opensource, android, fragment, builder-pattern
 
 ---
 
