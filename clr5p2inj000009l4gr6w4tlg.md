@@ -3,6 +3,7 @@ title: "[Material Design3]Icons"
 datePublished: Tue Jan 09 2024 01:50:07 GMT+0000 (Coordinated Universal Time)
 cuid: clr5p2inj000009l4gr6w4tlg
 slug: material-design3icons
+tags: material-design, android
 
 ---
 
