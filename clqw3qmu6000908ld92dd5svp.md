@@ -3,6 +3,7 @@ title: "[Doc Review]average"
 datePublished: Tue Jan 02 2024 08:43:05 GMT+0000 (Coordinated Universal Time)
 cuid: clqw3qmu6000908ld92dd5svp
 slug: kotlin-stdlibaverage
+tags: kotlin
 
 ---
 
