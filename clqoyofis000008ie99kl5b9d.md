@@ -3,6 +3,7 @@ title: "[Doc Review]Fragment lifecycle"
 datePublished: Thu Dec 28 2023 08:47:01 GMT+0000 (Coordinated Universal Time)
 cuid: clqoyofis000008ie99kl5b9d
 slug: doc-reviewfragment-lifecycle
+tags: android
 
 ---
 
