@@ -3,6 +3,7 @@ title: "[Doc Review] Filtering collections"
 datePublished: Fri Jan 12 2024 15:51:55 GMT+0000 (Coordinated Universal Time)
 cuid: clratgmez000t09l37jp27gtp
 slug: doc-review-filtering-collections
+tags: kotlin
 
 ---
 
