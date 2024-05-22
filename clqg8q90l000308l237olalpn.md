@@ -1,8 +1,9 @@
 ---
-title: "[Android]News  App"
+title: "News  App"
 datePublished: Fri Dec 22 2023 06:18:27 GMT+0000 (Coordinated Universal Time)
 cuid: clqg8q90l000308l237olalpn
-slug: androidnews-app
+slug: news-app
+tags: android
 
 ---
 
