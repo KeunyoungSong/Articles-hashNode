@@ -1,5 +1,5 @@
 ---
-title: "[Android]MediaPlayer APP"
+title: "MediaPlayer App"
 datePublished: Sat Dec 02 2023 08:28:28 GMT+0000 (Coordinated Universal Time)
 cuid: clpnskfgp001809ju995t4tte
 slug: androidmediaplayer-app
