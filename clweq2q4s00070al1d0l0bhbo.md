@@ -4,7 +4,7 @@ datePublished: Mon May 20 2024 08:46:44 GMT+0000 (Coordinated Universal Time)
 cuid: clweq2q4s00070al1d0l0bhbo
 slug: image-picker-android-library-4
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716194723158/6e7265cc-3f32-4b13-8b0f-289194ca5ca4.png
-tags: android, publishing, android-libraries
+tags: opensource, android, publishing, android-libraries
 
 ---
 
