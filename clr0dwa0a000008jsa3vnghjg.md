@@ -3,6 +3,7 @@ title: "[Doc Review]UI layer"
 datePublished: Fri Jan 05 2024 08:38:30 GMT+0000 (Coordinated Universal Time)
 cuid: clr0dwa0a000008jsa3vnghjg
 slug: doc-reviewui-layer
+tags: android
 
 ---
 
