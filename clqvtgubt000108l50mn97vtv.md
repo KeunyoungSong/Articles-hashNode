@@ -1,5 +1,5 @@
 ---
-title: "[Design Pattern]Delegation pattern"
+title: "Delegation pattern"
 datePublished: Tue Jan 02 2024 03:55:32 GMT+0000 (Coordinated Universal Time)
 cuid: clqvtgubt000108l50mn97vtv
 slug: design-patterndelegation-pattern
