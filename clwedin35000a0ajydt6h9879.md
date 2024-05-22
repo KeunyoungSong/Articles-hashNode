@@ -1,5 +1,5 @@
 ---
-title: "[OpenSource]Image Picker Android library 배포하기(2)"
+title: "[Android Library]Image Picker Android library 배포하기(2)"
 datePublished: Mon May 20 2024 02:55:11 GMT+0000 (Coordinated Universal Time)
 cuid: clwedin35000a0ajydt6h9879
 slug: image-picker-android-library-2
