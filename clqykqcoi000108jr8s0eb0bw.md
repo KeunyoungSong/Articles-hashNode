@@ -3,6 +3,7 @@ title: "[Doc Review]Scope functions"
 datePublished: Thu Jan 04 2024 02:14:18 GMT+0000 (Coordinated Universal Time)
 cuid: clqykqcoi000108jr8s0eb0bw
 slug: docs-reviewscope-functions
+tags: kotlin
 
 ---
 
