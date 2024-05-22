@@ -4,6 +4,7 @@ datePublished: Tue Jan 23 2024 16:07:51 GMT+0000 (Coordinated Universal Time)
 cuid: clrqjvhqo000209kw1riagv8w
 slug: docs-reviewsguide-to-app-architecture
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716101678147/790b10cf-7c33-4137-be49-f625db24db06.png
+tags: android
 
 ---
 
