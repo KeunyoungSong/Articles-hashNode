@@ -200,9 +200,9 @@ public class SecondActivity extends AppCompatActivity {
 }
 ```
 
-## Serializable vs Parcelable
+# Serializable vs Parcelable
 
-#### Serializable
+### Serializable
 
 장점
 
@@ -216,7 +216,7 @@ public class SecondActivity extends AppCompatActivity {
 * 상대적으로 더 많은 오버헤드
     
 
-#### **Parcelable**
+### **Parcelable**
 
 장점
 
