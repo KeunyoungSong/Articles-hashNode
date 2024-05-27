@@ -1,5 +1,5 @@
 ---
-title: "직렬화와 비직렬화: Serializable, Parcelable, Gson의 이해"
+title: "직렬화와 비직렬화: Serializable, Parcelable 그리고Gson의 이해"
 datePublished: Mon May 27 2024 07:53:26 GMT+0000 (Coordinated Universal Time)
 cuid: clwoo94y9000109l9hticfezh
 slug: serializable-parcelable
