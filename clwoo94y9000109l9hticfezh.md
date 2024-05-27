@@ -200,7 +200,7 @@ public class SecondActivity extends AppCompatActivity {
 }
 ```
 
-### Serializable vs Parcelable
+## Serializable vs Parcelable
 
 #### Serializable
 
