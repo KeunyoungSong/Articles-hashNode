@@ -1,5 +1,5 @@
 ---
-title: "직렬화와 비직렬화: Serializable과 Parcelable의 이해"
+title: "직렬화와 비직렬화: Serializable, Parcelable, Gson의 이해"
 datePublished: Mon May 27 2024 07:53:26 GMT+0000 (Coordinated Universal Time)
 cuid: clwoo94y9000109l9hticfezh
 slug: serializable-parcelable
@@ -237,6 +237,15 @@ public class SecondActivity extends AppCompatActivity {
 * Serializable: Java의 기본 직렬화 방식인 `Serializable` 은 리플렉션을 사용하여 객체의 모든 필드를 직렬화 한다. 리플렉션은 유연하지만 성능이 떨어지고 메모리 사용량이 많다. 이는 Java 표준 라이브러리로 구현되었기 때문에 코드 이식성이 높지만, Android 환경에서는 성능상의 단점이 있다.
     
 * Parcelable: Android의 `Parcelabe` 은 직렬화를 위해 직접 구현된 메서드를 사용한다. 이는 메타데이터를 포함하지 않기 때문에 더 효율적이고 빠르다. `Parcelable` 은 Android 프레임워크의 일부로 설계되어 Android의 메모리 및 성능 특성을 고려하여 최적화되어 있다. 그러나 구현이 복합하고 Java 표준이 아니기 때문에 다른 플랫폼에서는 사용할 수 없다.
+    
+
+# Gson
+
+* Google의 JSON 직렬화 및 비직렬화 라이브러리
+    
+* 객체를 JSON 문자열로 변환하거나 JSON 문자열을 객체로 변환
+    
+* `Serializable`이나 `Parcelable` 인터페이스를 구현할 필요 없음
     
 
 ---
