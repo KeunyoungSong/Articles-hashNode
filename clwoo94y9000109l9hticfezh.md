@@ -100,7 +100,7 @@ public class SerializationExample {
 
 비직렬화 시, `FileInputStream` 가 먼저 `student.ser` 파일을 열고 이후 `ObjectInputStream` 를 통해 바이트 스트림 데이터를 객체로 복원한다.
 
-### Android의 직렬화 (Parcelable 인터페이스)
+## Android의 직렬화 (Parcelable 인터페이스)
 
 Android에서는 객체의 직렬화 및 비직렬화에 있어 `Serializable`보다 `Parcelable` 인터페이스를 사용하는 것이 권장됨.
 
