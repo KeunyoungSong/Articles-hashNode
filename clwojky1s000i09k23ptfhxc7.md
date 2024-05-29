@@ -3,6 +3,7 @@ title: "서버 주도 UI(Server-Driven UI)란?"
 datePublished: Mon May 27 2024 05:42:38 GMT+0000 (Coordinated Universal Time)
 cuid: clwojky1s000i09k23ptfhxc7
 slug: uiserver-driven-ui
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716957769109/c3e4aaae-86f2-4716-b1df-3cbebf7c12e0.png
 tags: android, server-driven-ui
 
 ---
