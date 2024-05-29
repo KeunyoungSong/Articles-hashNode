@@ -3,6 +3,7 @@ title: "What is Reactive Programming?"
 datePublished: Wed May 29 2024 04:37:18 GMT+0000 (Coordinated Universal Time)
 cuid: clwrc4mid000308k0hs92erhl
 slug: what-is-reactive-programming
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716957507414/c048db72-aa32-4485-a382-7e77add31997.png
 tags: reactive-programming, declarative-programming, imperative-programming
 
 ---
