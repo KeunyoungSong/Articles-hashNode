@@ -3,7 +3,7 @@ title: "Server-Driven UI App"
 datePublished: Wed May 29 2024 02:36:42 GMT+0000 (Coordinated Universal Time)
 cuid: clwr7tj3100050ajy61xe0oib
 slug: server-driven-ui-app
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716950192051/e277bf57-1365-4135-9981-45147b73f6e7.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716957820058/95026e86-ab52-40f4-834e-5d36b336adcb.png
 
 ---
 
