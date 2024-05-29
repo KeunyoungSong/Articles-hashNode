@@ -57,4 +57,5 @@ void inOrderTraversal(TreeNode node) {
 
 
 ---
+# 참고
 https://en.wikipedia.org/wiki/Iterator_pattern
