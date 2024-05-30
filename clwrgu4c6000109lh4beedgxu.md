@@ -1,5 +1,5 @@
 ---
-title: "Functional programming이란?"
+title: "Functional programming(함수형 프로그래밍)이란?"
 datePublished: Wed May 29 2024 06:49:06 GMT+0000 (Coordinated Universal Time)
 cuid: clwrgu4c6000109lh4beedgxu
 slug: functional-programming
