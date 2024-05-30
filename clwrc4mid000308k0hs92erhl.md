@@ -45,7 +45,7 @@ tags: reactive-programming, declarative-programming, imperative-programming
 
 정리하자면,
 
-**Declarative Programming(선언적 프로그래밍)**은 프로그램이 결과로 원하는 결과를 설명하는 프로그래밍 하고 \*\*Imperative Programming(명령적 프로그래밍)\*\*은 프로그램이 작동되는 방식 그 과정을 구체적으로 설명한다.
+**Declarative Programming(선언적 프로그래밍)**은 프로그램이 결과로 원하는 결과를 설명하는 프로그래밍 하고 **Imperative Programming(명령적 프로그래밍)**은 프로그램이 작동되는 방식 그 과정을 구체적으로 설명한다.
 
 그리고 **Reactive Programming은 이런 선언적 프로그래밍 방식을 사용하고 있다.**
 
