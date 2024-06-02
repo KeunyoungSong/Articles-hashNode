@@ -1,5 +1,5 @@
 ---
-title: "Android에서 JavaScript와 상호작용하는 방법"
+title: "[Doc Review]Android에서 JavaScript와 상호작용하는 방법"
 datePublished: Sun Jun 02 2024 08:01:16 GMT+0000 (Coordinated Universal Time)
 cuid: clwx96bqy000g09jy1hv9fa64
 slug: android-javascript
