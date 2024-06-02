@@ -43,7 +43,7 @@ public @interface JavascriptInterface {}
 * public @interface JavascriptInterface: `JavascriptInterface` 라는 새로운 애노테이션 타입을 정의.
     
 
-# 자바 객체를 웹뷰에 삽입하는 WebView의 공개 메서드 addJavascriptInterface를 문서에서 찾아보면
+# addJavascriptInterface 관련 문서를 보자
 
 > Injects the supplied Java object into this WebView. The object is injected into all frames of the web page, including all the iframes, using the supplied name. This allows the Java object's methods to be accessed from JavaScript. For applications targeted to API level [`Build.VERSION_CODES.JELLY_BEAN_MR1`](https://developer.android.com/reference/android/os/Build.VERSION_CODES#JELLY_BEAN_MR1) and above, only public methods that are annotated with [`JavascriptInterface`](https://developer.android.com/reference/android/webkit/JavascriptInterface) can be accessed from JavaScript. For applications targeted to API level [`Build.VERSION_CODES.JELLY_BEAN`](https://developer.android.com/reference/android/os/Build.VERSION_CODES#JELLY_BEAN) or below, all public methods (including the inherited ones) can be accessed, see the important security note below for implications.
 > 
@@ -137,7 +137,7 @@ Java bridge의 목적은 Java와 JavaScript라는 두 VM(가상머신)간의 상
 
 ```java
 // Java
-webView.addJavascriptInterface ( new MyObject (), "myObject" );  
+webView.addJavascriptInterface ( new MyObject (), "myObject" );
 ```
 
 인스턴스화된 MyObject는 이제 JavaScript 대응 항목에 의해 가상으로 보유되고 있으며 Java 측에서 이에 대한 명시적인 참조가 없음에도 불구하고 Java VM에 의해 가비지 수집이 되지 않는다. MyObject 인스턴스는 **addJavascriptInterface** 호출 작업이 **RemoveJavascriptInterface** 호출에 의해 취소될 때까지 계속 참조됩니다.
