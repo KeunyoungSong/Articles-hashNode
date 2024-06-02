@@ -3,11 +3,16 @@ title: "[Doc Review]Android에서 JavaScript와 상호작용하는 방법"
 datePublished: Sun Jun 02 2024 08:01:16 GMT+0000 (Coordinated Universal Time)
 cuid: clwx96bqy000g09jy1hv9fa64
 slug: android-javascript
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717315639733/93fa7a02-eb61-487d-b0c4-79c19a63356a.png
 tags: android, webview
 
 ---
 
-[관련 구글 문서](https://developer.android.com/reference/android/webkit/JavascriptInterface)에 따르면,
+안드로이드 애플리케이션에서 WebView를 통해 JavaScript와 Java 간의 상호작용을 구현하는 것은 매우 중요합니다. 특히, JavascriptInterface 애너테이션과 addJavascriptInterface 메서드는 이러한 상호작용을 가능하게 하는 핵심 요소입니다. 이 글에서는 JavascriptInterface의 내부 구현 방식과 addJavascriptInterface 메서드의 동작 원리, 보안 위험 및 스레드 안정성 등을 자세히 살펴보겠습니다.
+
+# JavascriptInterface와 addJavascriptInterface 개요
+
+ [JavascriptInterface에 관한 구글 문서](https://developer.android.com/reference/android/webkit/JavascriptInterface)에 따르면,
 
 `public abstract @interface JavascriptInterface`  
 `implements`[`Annotation`](https://developer.android.com/reference/java/lang/annotation/Annotation)
@@ -18,7 +23,7 @@ android.webkit.JavascriptInterface
 
 Annotation 인터페이스를 상속받는 **JavaScript에 (Java의) 메서드를 노출시키는 애너테이션**이다.
 
-# 안드로이드 스튜디오에서 해당 인터페이스 구현을 살펴봤다.
+## 안드로이드 스튜디오에서 해당 인터페이스 구현을 살펴봤다.
 
 ```javascript
 package android.webkit;
@@ -43,7 +48,7 @@ public @interface JavascriptInterface {}
 * public @interface JavascriptInterface: `JavascriptInterface` 라는 새로운 애노테이션 타입을 정의.
     
 
-# addJavascriptInterface 관련 문서를 보자
+## addJavascriptInterface 관련 문서를 보자
 
 > Injects the supplied Java object into this WebView. The object is injected into all frames of the web page, including all the iframes, using the supplied name. This allows the Java object's methods to be accessed from JavaScript. For applications targeted to API level [`Build.VERSION_CODES.JELLY_BEAN_MR1`](https://developer.android.com/reference/android/os/Build.VERSION_CODES#JELLY_BEAN_MR1) and above, only public methods that are annotated with [`JavascriptInterface`](https://developer.android.com/reference/android/webkit/JavascriptInterface) can be accessed from JavaScript. For applications targeted to API level [`Build.VERSION_CODES.JELLY_BEAN`](https://developer.android.com/reference/android/os/Build.VERSION_CODES#JELLY_BEAN) or below, all public methods (including the inherited ones) can be accessed, see the important security note below for implications.
 > 
