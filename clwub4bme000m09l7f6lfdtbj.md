@@ -3,6 +3,7 @@ title: "모바일 앱 개발 방식 비교: Hybrid, Native, Cross-Platform, PWA"
 datePublished: Fri May 31 2024 06:32:23 GMT+0000 (Coordinated Universal Time)
 cuid: clwub4bme000m09l7f6lfdtbj
 slug: hybrid-native-cross-platform-pwa
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717316879667/72204208-13e3-4018-be0c-9489896d60d8.png
 tags: app-development, hybrid-apps, pwa, native-app, cross-platform-app-development
 
 ---
