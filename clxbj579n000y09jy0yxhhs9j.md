@@ -9,9 +9,9 @@ tags: android
 
 안드로이드 관련 기술을 학습하던 중 멀티 모듈 앱 이라는 키워드를 알게 되었다. 이번 포스팅에서는 안드로이드 필드에서 멀티 모듈이 무엇을 말하는지와 왜 필요한 것인지 알아보겠다.
 
-### 안드로이드 공식 문서를 보자
+### 멀티 모듈 프로젝트란 뭘까?
 
-[**Guide to Android app modularization**](https://developer.android.com/topic/modularization) **을 보자.**
+안드로이드 공식 문서 중 [**Guide to Android app modularization**](https://developer.android.com/topic/modularization) **을 보자.**
 
 > **A project with multiple Gradle modules is known as a multi-module project.** This guide encompasses best practices and recommended patterns for developing multi-module Android apps.
 
@@ -19,7 +19,7 @@ tags: android
 
 끊임 없이 성장하는 코드베이스에서는 확장성, 가독성, 및 전반적인 코드 품질이 시간이 지남에 따라 저하되는데 이런 문제를 방지하고 유지관리성을 향상시키는 방식으로 코드베이스를 구조화하는 수단이 모듈레이션이라고 한다.
 
-그럼 modularization은 뭘까? 문서를 보면,
+### Modularization 은 뭘까?
 
 > Modularization is a practice of organizing a codebase into loosely coupled and self contained parts. Each part is a module. Each module is independent and serves a clear purpose. By dividing a problem into smaller and easier to solve subproblems, you reduce the complexity of designing and maintaining a large system.
 
