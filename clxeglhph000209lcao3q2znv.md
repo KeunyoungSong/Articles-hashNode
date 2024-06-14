@@ -59,7 +59,7 @@ APK를 타겟 시스템 별로 아래 그림과 같이 배포하도록 만듬
 
 Slack에서 bot api 를 지원해줘서 아래처럼 관리함
 
-![slack](https://techblog.woowahan.com/wp-content/uploads/img/2018-06-26/pic05.png align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718355799107/96c1b676-0b3a-4bac-aa8b-1c7c25f8ae0f.png align="center")
 
 ### Docker For Jenkins 이미지를 만들기 위한 DockerFile 작성
 
