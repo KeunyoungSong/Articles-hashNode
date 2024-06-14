@@ -77,6 +77,8 @@ Gradle , OpenJDK, Android SDK를 추가함
 
 ![카톡](https://techblog.woowahan.com/wp-content/uploads/img/2018-06-26/pic04.png align="left")
 
+---
+
 # 참고
 
 * [https://techblog.woowahan.com/2579/](https://techblog.woowahan.com/2579/)
