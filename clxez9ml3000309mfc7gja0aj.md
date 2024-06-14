@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 분야의 Ci/cd에 대해 알아보자"
+title: "안드로이드 앱 개발의 Ci/cd 를 알아보자"
 datePublished: Fri Jun 14 2024 17:43:45 GMT+0000 (Coordinated Universal Time)
 cuid: clxez9ml3000309mfc7gja0aj
 slug: cicd
