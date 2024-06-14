@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 필드의 CI/CD 를 알아보자q"
+title: "안드로이드 앱 개발의 CI/CD Overview"
 datePublished: Fri Jun 14 2024 17:43:45 GMT+0000 (Coordinated Universal Time)
 cuid: clxez9ml3000309mfc7gja0aj
 slug: cicd
@@ -85,3 +85,7 @@ tags: cicd
 가장 큰 차이점은 GitHub Actions 가 GitHub 이 제공하는 유료 서비스인 반면 Jenkins 는 오픈소스이기 때문에 추가 비용 지출에 대한 측면을 고려하지 않을 수 없다는 것이었다.
 
 나는 학습을 위해 조사를 하고 있는 것이기 때문에 각각의 차이에 대해 가볍게 짚은 채로 이후 포스팅에서 각각의 환경을 구현하고 사용해보는 포스팅을 작성하겠다.
+
+---
+
+제목에 / 를 사용하면 앞뒤 단어가 소문자로 강제 전환되는 버그가 있다. 띄어스기 이후
