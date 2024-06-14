@@ -1,5 +1,5 @@
 ---
-title: "[Video Review]카카오 모빌리티 팀의 안드로이드 CI 개선 사례"
+title: "[Video Summury]카카오 모빌리티 팀의 안드로이드 CI 개선 사례"
 datePublished: Fri Jun 14 2024 07:50:21 GMT+0000 (Coordinated Universal Time)
 cuid: clxee2iiu000q09lcfqnfc1r4
 slug: video-review-ci
