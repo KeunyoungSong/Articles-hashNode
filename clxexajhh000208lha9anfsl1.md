@@ -78,6 +78,8 @@ GitHub Actions 는 안드로이드 기본 빌드 스크립트를 제공함
 
 ### 이후 환경 구축 방법(생략)
 
+---
+
 # 참고
 
 * [https://arc.net/l/quote/avwmhabn](https://arc.net/l/quote/avwmhabn)
