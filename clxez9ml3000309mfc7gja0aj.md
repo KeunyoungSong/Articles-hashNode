@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 필드의 Ci/cd 을 알아보자"
+title: "안드로이드 필드의 Ci/cd 를 알아보자."
 datePublished: Fri Jun 14 2024 17:43:45 GMT+0000 (Coordinated Universal Time)
 cuid: clxez9ml3000309mfc7gja0aj
 slug: cicd
