@@ -6,7 +6,7 @@ slug: article-summury-cicd
 
 ---
 
-[안드로이드 분야의 CI/CD 포스팅](https://hashnode.com/preview/666bb7b91328932b05ad0178) 을 작성을 위해 학습한 내용을 따로 요약하기 위한 포스팅입니다.
+[안드로이드 분야의 CI/CD 포스팅](https://hashnode.com/preview/666bb7b91328932b05ad0178) 을 작성하기 위해 학습한 내용을 따로 요약하기 위한 포스팅입니다.
 
 # 요약
 
