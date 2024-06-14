@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 분야의 Ci / Cd"
+title: "안드로이드 분야의 Ci/cd"
 datePublished: Fri Jun 14 2024 17:43:45 GMT+0000 (Coordinated Universal Time)
 cuid: clxez9ml3000309mfc7gja0aj
 slug: cicd
