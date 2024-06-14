@@ -6,6 +6,8 @@ slug: video-review-ci
 
 ---
 
+[안드로이드 분야의 CI/CD 포스팅](https://hashnode.com/preview/666bb7b91328932b05ad0178) 을 작성하며 학습한 내용을 따로 요약하기 위한 포스팅입니다.
+
 # 목차
 
 * Branch 안정성을 검증해주는 Jenkins CI 구축과정
