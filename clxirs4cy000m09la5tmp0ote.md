@@ -6,7 +6,16 @@ slug: video-summary-detekt
 
 ---
 
-이 포스팅은 아래 유튜브 강좌를 요약/정리 하여 작성한 글입니다.
+이번 포스팅에서는 이전에 다룬 **CI/CD와 DevOps** 및 **안드로이드 앱 개발의 CI/CD 개요**를 실제 환경에서 구현해보는 실습을 해보겠습니다. 여기서는 GitHub Actions 를 사용해보겠습니다.
+
+#### 이전 포스팅
+
+* [CI/CD, DevOps의 이해](https://hashnode.com/post/clxe9dwbg000j09l2cuhfb021)
+    
+* [안드로이드 앱 개발의 CI/CD Overview](https://hashnode.com/post/clxez9ml3000309mfc7gja0aj)
+    
+
+본 내용은 아래 유튜브 강좌를 통해 학습한 내용을 정리한 것입니다.
 
 * [**detekt: a static code analysis linter tool for Kotlin Android projects!**](https://www.youtube.com/watch?v=o384NbCDB0U&t=31s)
     
