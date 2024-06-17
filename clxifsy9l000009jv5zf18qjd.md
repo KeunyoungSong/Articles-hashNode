@@ -1,8 +1,8 @@
 ---
-title: "[Video Summary]간단한 CI/CD 를 구현해보자"
+title: "[Video Summary]Jenkins로 CI/CD 를 구현해보자"
 datePublished: Mon Jun 17 2024 03:49:59 GMT+0000 (Coordinated Universal Time)
 cuid: clxifsy9l000009jv5zf18qjd
-slug: video-summary-cicd
+slug: video-summaryjenkins-cicd
 
 ---
 
