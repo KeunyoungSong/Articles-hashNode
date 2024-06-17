@@ -26,6 +26,17 @@ slug: video-summaryjenkins-cicd
 * [\[토크ON세미나\] Jenkins를 활용한 CI/CD 4강 - 젠킨스 CI/CD 파이프라인 구성 실습(2) | T아카데미](https://www.youtube.com/watch?v=HVqG59Wtc5c)
     
 
+# 학습 내용
+
+* Jenkins를 사용하여 CI/CD 파이프라인을 구축하는 방법을 실습하였습니다.
+    
+* AWS EC2에 Jenkins를 설치하고, GitHub와 연동하여 자동화 파이프라인을 구성하였습니다.
+    
+* 다양한 Jenkins 플러그인들을 활용하여 빌드, 테스트, 배포 과정을 자동화하였습니다.
+    
+* 최신 Jenkins 설정 과정에서 발생할 수 있는 문제점들을 해결하는 방법을 배웠습니다.
+    
+
 # 요약
 
 ## 강의 목표
@@ -717,6 +728,83 @@ Caused by: java.io.IOException: Cannot run program "git" (in directory "/var/lib
 * Jenkins 에서 git clone 작업을 하기 때문에 ec2 서버에 git을 설치해주어야 한다. 플러그인 만으로 되지 않음
     
 
+## Jenkins 파이프라인 자동화 내역
+
+1. **파이프라인 개요**
+    
+    * Jenkins를 사용하여 코드를 주기적으로 빌드하고, 테스트하고, 배포하는 자동화된 CI/CD 파이프라인.
+        
+2. **Agent 설정**
+    
+    * 사용 가능한 아무 Jenkins 에이전트에서 실행.
+        
+3. **트리거 설정**
+    
+    * SCM 변화를 3분마다 체크하여 실행.
+        
+4. **환경 변수 설정**
+    
+    * AWS 접근 키와 비밀 접근 키, 기본 지역 설정 등 파이프라인 내에서 사용할 환경 변수 설정.
+        
+5. **Prepare 스테이지**
+    
+    * **목적**: 소스 코드를 다운로드.
+        
+    * **작업**: 레포지토리를 클론.
+        
+    * **후속 작업**:
+        
+        * 성공 시: 레포지토리 다운로드 성공 로그.
+            
+        * 항상: 작업 시도 로그.
+            
+        * 정리 작업: 모든 후속 작업 후 로그.
+            
+6. **Deploy Frontend 스테이지**
+    
+    * **목적**: 프론트엔드 파일을 AWS S3에 배포.
+        
+    * **작업**: 정적 파일들을 S3에 업로드.
+        
+    * **후속 작업**:
+        
+        * 성공 시: 성공 이메일 발송.
+            
+        * 실패 시: 실패 이메일 발송.
+            
+7. **Lint Backend 스테이지**
+    
+    * **목적**: 백엔드 코드를 린트.
+        
+    * **작업**: Docker를 사용하여 Node.js 환경에서 린트 작업 수행.
+        
+8. **Test Backend 스테이지**
+    
+    * **목적**: 백엔드 테스트 실행.
+        
+    * **작업**: Docker를 사용하여 Node.js 환경에서 테스트 코드 실행.
+        
+9. **Build Backend 스테이지**
+    
+    * **목적**: 백엔드 코드 빌드.
+        
+    * **작업**: Docker 이미지를 빌드.
+        
+    * **후속 작업**:
+        
+        * 실패 시: 파이프라인 중단.
+            
+10. **Deploy Backend 스테이지**
+    
+    * **목적**: 백엔드 애플리케이션 배포.
+        
+    * **작업**: Docker 컨테이너 실행.
+        
+    * **후속 작업**:
+        
+        * 성공 시: 성공 이메일 발송.
+            
+
 # 메모
 
 1. JRE(Java Runtime Environment): Java 애플리케이션을 실행하기 위한 환경. JVM(Java Virtual Machine), 코어 클래스, 지원 라이브러리등을 포함. 개발 도구는 포함되지 않는다.
@@ -740,12 +828,24 @@ Caused by: java.io.IOException: Cannot run program "git" (in directory "/var/lib
 
 GitHub Actions는 GitHub에서 제공하는 CI/CD 도구로, Jenkins와는 다른 방식으로 자동화를 제공하며, 이를 통해 다양한 CI/CD 도구들을 비교하고 학습할 계획힙니다.
 
-### 요약
+---
 
-* Jenkins를 사용하여 CI/CD 파이프라인을 구축하는 방법을 실습하였습니다.
-    
-* AWS EC2에 Jenkins를 설치하고, GitHub와 연동하여 자동화 파이프라인을 구성하였습니다.
-    
-* 다양한 Jenkins 플러그인들을 활용하여 빌드, 테스트, 배포 과정을 자동화하였습니다.
-    
-* 최신 Jenkins 설정 과정에서 발생할 수 있는 문제점들을 해결하는 방법을 배웠습니다.
+젠킨스 실행시 관리자 페이지에서 볼 수 있는 귀여운 젠킨스
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718617464122/1fa27178-c227-44e7-ba5c-1c9048d1849c.png align="center")
+
+아래와 같이 성공한 빌드를 확인할 수 있다
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718617512645/ebd216d1-3ccb-4cbf-9ce1-f65e13ee6f15.png align="center")
+
+블루오션 플러그인을 사용하면 이미지와 함께 상태를 확인 할 수 있다.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718617542855/01c6408f-be85-4dc5-805c-ecf73679a24e.png align="center")
+
+성공적으로 S3 에 배포된 정적 웹페이지
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718617726414/85adce3f-0e77-4af3-9212-39b0d0314361.png align="center")
+
+각 스텝별로 경과를 메일로 받은 내역
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718617675788/3475cc50-fbfc-44d6-bfff-35b9580f5486.png align="center")
