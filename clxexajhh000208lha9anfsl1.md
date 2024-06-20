@@ -1,5 +1,5 @@
 ---
-title: "[Article Summary]딜리셔스 클라이언트 안드로이드 개발팀의 GitHub Actions로 CI 구축하기"
+title: "[Article Summary](주)딜리셔스 안드로이드 개발팀의 GitHub Actions로 CI 구축하기"
 datePublished: Fri Jun 14 2024 16:48:28 GMT+0000 (Coordinated Universal Time)
 cuid: clxexajhh000208lha9anfsl1
 slug: article-summary-github-actions-ci
