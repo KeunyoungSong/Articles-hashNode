@@ -3,6 +3,7 @@ title: "정적 코드 분석이란?"
 datePublished: Mon Jun 17 2024 07:52:19 GMT+0000 (Coordinated Universal Time)
 cuid: clxiogls200000ala9ftlbbv2
 slug: 7kcv7kcbioy9loutncdrtotshj3snbtrnoa
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875146401/ebad78e7-5af6-4d5d-8324-2bd4d41ac9ab.png
 
 ---
 
