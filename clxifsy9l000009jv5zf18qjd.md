@@ -4,6 +4,7 @@ title: "[Video Summary]Jenkins로 CI/CD
 datePublished: Mon Jun 17 2024 03:49:59 GMT+0000 (Coordinated Universal Time)
 cuid: clxifsy9l000009jv5zf18qjd
 slug: video-summaryjenkins-cicd
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875156121/f5e48057-8c66-42a3-979b-e8e1e57936ea.png
 
 ---
 
