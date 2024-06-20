@@ -1,5 +1,5 @@
 ---
-title: "[Video Summary] GitHub Actions로 CI/CD 환경을 만들어보자"
+title: "[Video Summary]GitHub Actions로 CI/CD 환경을 만들어보자"
 datePublished: Mon Jun 17 2024 09:25:15 GMT+0000 (Coordinated Universal Time)
 cuid: clxirs4cy000m09la5tmp0ote
 slug: video-summary-detekt
