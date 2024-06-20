@@ -1,12 +1,12 @@
 ---
-title: "코드 정적 분석이란?"
+title: "정적 코드 분석이란?"
 datePublished: Mon Jun 17 2024 07:52:19 GMT+0000 (Coordinated Universal Time)
 cuid: clxiogls200000ala9ftlbbv2
-slug: 7l2u65ocioygleyggsdrtotshj3snbtrnoa
+slug: 7kcv7kcbioy9loutncdrtotshj3snbtrnoa
 
 ---
 
-코드 정적 분석(Static Code Analysis)은 **소스 코드를 실행하지 않고 분석하는 기법**이다.
+정적 코드 분석(Static Code Analysis)은 **소스 코드를 실행하지 않고 분석하는 기법**이다.
 
 코드 품질을 개선하고 버그, 보안 취약점, 코드 표준 위반 등을 조기에 발견하는 데 사용된다. 코드 정적 분석은 개발 초기 단계에서 오류를 발견해 수정 비용을 줄이고 전반적인 코드 품질을 향상시키는 데 도움을 준다.
 
