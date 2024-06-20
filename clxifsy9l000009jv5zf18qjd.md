@@ -1,5 +1,6 @@
 ---
-title: "[Video Summary]Jenkins로 CI/CD 를 구현해보자"
+title: "[Video Summary]Jenkins로 CI/CD 
+환경을 만들어보자"
 datePublished: Mon Jun 17 2024 03:49:59 GMT+0000 (Coordinated Universal Time)
 cuid: clxifsy9l000009jv5zf18qjd
 slug: video-summaryjenkins-cicd
