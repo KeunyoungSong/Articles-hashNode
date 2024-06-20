@@ -3,6 +3,7 @@ title: "[Video Summary]GitHub Actions로 CI/CD 환경을 만들어보자"
 datePublished: Mon Jun 17 2024 09:25:15 GMT+0000 (Coordinated Universal Time)
 cuid: clxirs4cy000m09la5tmp0ote
 slug: video-summary-detekt
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875131876/0b262cc6-3647-4a64-a545-b11add62ca5f.png
 
 ---
 
