@@ -3,6 +3,7 @@ title: "[Doc Review]안드로이드에서 멀티 모듈이란?"
 datePublished: Wed Jun 12 2024 07:49:06 GMT+0000 (Coordinated Universal Time)
 cuid: clxbj579n000y09jy0yxhhs9j
 slug: doc-review
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875280983/60137043-5cc6-4a79-9687-6378dc56b31e.png
 tags: android
 
 ---
