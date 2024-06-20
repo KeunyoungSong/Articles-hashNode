@@ -3,6 +3,7 @@ title: "위임 패턴(Delegation Pattern)의 이해"
 datePublished: Thu Jun 13 2024 09:29:37 GMT+0000 (Coordinated Universal Time)
 cuid: clxd26bi8000508l3db4dak5s
 slug: delegation-pattern
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875269660/846891da-0ab6-47a3-b4a5-4d58af0e235b.png
 tags: compose, android, kotlin, delegate
 
 ---
