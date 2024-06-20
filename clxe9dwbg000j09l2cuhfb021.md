@@ -3,6 +3,7 @@ title: "CI/CD, DevOps의 이해"
 datePublished: Fri Jun 14 2024 05:39:14 GMT+0000 (Coordinated Universal Time)
 cuid: clxe9dwbg000j09l2cuhfb021
 slug: cicd-devops
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875246602/2db3fbd2-c988-4542-a416-5a516cef790e.png
 tags: devops, cicd
 
 ---
