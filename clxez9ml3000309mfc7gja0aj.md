@@ -3,6 +3,7 @@ title: "안드로이드 앱 개발의 CI/CD Overview"
 datePublished: Fri Jun 14 2024 17:43:45 GMT+0000 (Coordinated Universal Time)
 cuid: clxez9ml3000309mfc7gja0aj
 slug: cicd
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875167869/be2c51f1-0ca1-4ad6-99d8-07eccd0a2243.png
 tags: cicd
 
 ---
