@@ -3,6 +3,7 @@ title: "[Video Review] 라인의 안드로이드 CI&Unit Test"
 datePublished: Fri Jun 14 2024 04:12:47 GMT+0000 (Coordinated Universal Time)
 cuid: clxe6apz7000a09l59upebyzm
 slug: video-review-ciunit-test
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875258156/e0ea0718-6f2d-4979-80fa-a252233ebff2.png
 
 ---
 
