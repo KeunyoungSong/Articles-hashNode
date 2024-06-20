@@ -3,6 +3,7 @@ title: "[Article Summary]우아한 라이더스 모바일 개발팀의 CI/CD 도
 datePublished: Fri Jun 14 2024 09:01:06 GMT+0000 (Coordinated Universal Time)
 cuid: clxeglhph000209lcao3q2znv
 slug: article-summury-cicd
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875200325/97180f8f-a99e-4bc8-87fb-7b2d353f4fee.png
 
 ---
 
