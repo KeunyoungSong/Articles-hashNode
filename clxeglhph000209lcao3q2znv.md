@@ -1,5 +1,5 @@
 ---
-title: "[Article Summary]우아한 라이더스 개발팀 모바일의 CI/CD 도입"
+title: "[Article Summary]우아한 라이더스 모바일 개발팀의 CI/CD 도입"
 datePublished: Fri Jun 14 2024 09:01:06 GMT+0000 (Coordinated Universal Time)
 cuid: clxeglhph000209lcao3q2znv
 slug: article-summury-cicd
