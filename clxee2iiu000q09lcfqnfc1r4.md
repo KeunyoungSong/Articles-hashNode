@@ -3,6 +3,7 @@ title: "[Video Summary]카카오 모빌리티 팀의 안드로이드 CI 개선 �
 datePublished: Fri Jun 14 2024 07:50:21 GMT+0000 (Coordinated Universal Time)
 cuid: clxee2iiu000q09lcfqnfc1r4
 slug: video-review-ci
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718875231963/917dfdd8-2d69-4868-a0ff-f9db7eb4854f.png
 
 ---
 
