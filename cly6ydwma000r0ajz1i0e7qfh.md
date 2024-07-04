@@ -1,5 +1,5 @@
 ---
-title: "Rgb와 Hsv 모델"
+title: "Rgb 와 Hsv 모델"
 datePublished: Thu Jul 04 2024 07:36:38 GMT+0000 (Coordinated Universal Time)
 cuid: cly6ydwma000r0ajz1i0e7qfh
 slug: rgb-hsv
